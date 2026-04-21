@@ -367,29 +367,6 @@ Different hacks, same desire: once the browser had become a richer host environm
 
 ---
 
-## Biology already trusts browser software
-
-<div class="grid grid-cols-3 gap-5 pt-8 text-center items-stretch">
-<div class="rounded-2xl px-5 py-6" style="border: 1px solid rgba(15,23,42,0.12); background: rgba(15,23,42,0.04);">
-  <div class="text-2xl font-bold mb-3">Galaxy</div>
-  <div class="text-base leading-snug">An open, web-based platform for accessible, reproducible, transparent computational biomedical research.</div>
-</div>
-<div class="rounded-2xl px-5 py-6" style="border: 1px solid rgba(15,23,42,0.12); background: rgba(15,23,42,0.04);">
-  <div class="text-2xl font-bold mb-3">JBrowse</div>
-  <div class="text-base leading-snug">A genome browser that runs on the web, on the desktop, or embedded in another app.</div>
-</div>
-<div class="rounded-2xl px-5 py-6" style="border: 1px solid rgba(8,145,178,0.18); background: rgba(8,145,178,0.07);">
-  <div class="text-2xl font-bold mb-3">IGV-Web</div>
-  <div class="text-base leading-snug">A pure-client genome browser application that already lives entirely in the browser.</div>
-</div>
-</div>
-<div class="pt-8 text-xl" style="max-width: 46rem;">
-So the argument is not that biology must learn to trust browsers. Biology already does. The open question is how much more method can fit inside that container.
-</div>
-<div class="absolute bottom-4 right-6 text-xs opacity-60">Galaxy project page; JBrowse homepage; IGV-Web README</div>
-
----
-
 ## What WebAssembly finally changes
 
 <div class="grid grid-cols-2 gap-10 pt-8 items-start">
