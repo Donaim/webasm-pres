@@ -264,30 +264,6 @@ That is an early deployment lesson that never went away: once the method lives i
 
 ---
 
-## Cloud, but by airplane
-
-<div class="grid grid-cols-2 gap-10 pt-8 items-start">
-<div>
-  <div class="text-3xl leading-tight" style="max-width: 33rem;">
-    The network never fully won.
-  </div>
-  <div class="pt-8 text-lg leading-snug" style="max-width: 34rem;">
-    When the data is large enough, the old trick returns: put the bits onto a box and ship the box. Google still sells a Transfer Appliance for exactly this. AWS still ships Snowball devices.
-  </div>
-</div>
-<div>
-  <div class="rounded-2xl px-6 py-6" style="background: rgba(8,145,178,0.07); border: 1px solid rgba(8,145,178,0.18);">
-    <div class="text-sm uppercase tracking-widest opacity-60 mb-3">Concrete number</div>
-    <div class="text-2xl leading-tight">
-      Google says 300 TB over a typical 100 Mbps connection can take about 9 months, while Transfer Appliance can capture it in under 25 days.
-    </div>
-  </div>
-</div>
-</div>
-<div class="absolute bottom-4 right-6 text-xs opacity-60">Google Transfer Appliance; AWS Snowball: ship the storage, then upload at the destination</div>
-
----
-
 ## 1993: the browser stops being plain text
 
 <div class="grid grid-cols-5 gap-8 pt-8 items-start">
