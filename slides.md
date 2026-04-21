@@ -220,30 +220,6 @@ Long before code, people still had procedures, workflows, and deployment problem
 
 ---
 
-## A bug could be a dropped deck
-
-<div class="grid grid-cols-5 gap-8 pt-8 items-start">
-<div class="col-span-3">
-  <div class="text-3xl leading-tight" style="max-width: 34rem;">
-    For a long time, software was not a file.
-    It was a stack.
-  </div>
-  <div class="pt-8 text-lg leading-snug" style="max-width: 34rem;">
-    Programs and data moved around as punched-card decks. Order mattered. Drop the deck and you did not just make a mess. You broke the program.
-  </div>
-</div>
-<div class="col-span-2 grid grid-cols-1 gap-4">
-  <div class="rounded-2xl px-5 py-5" style="border: 1px solid rgba(15,23,42,0.12);">Carrier: a physical deck</div>
-  <div class="rounded-2xl px-5 py-5" style="border: 1px solid rgba(15,23,42,0.12);">Limitation: order is fragile</div>
-  <div class="rounded-2xl px-5 py-5" style="border: 1px solid rgba(15,23,42,0.12);">Workaround: sort, label, protect, pray</div>
-</div>
-</div>
-<div class="mt-10 rounded-2xl px-6 py-5" style="background: rgba(153,27,27,0.07); border: 1px solid rgba(153,27,27,0.18); max-width: 48rem;">
-That is an early deployment lesson that never went away: once the method lives in a container, the container creates its own new failure modes.
-</div>
-
----
-
 ## Magazines were once app stores
 
 <div class="grid grid-cols-2 gap-10 pt-8 items-start">
