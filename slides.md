@@ -193,15 +193,18 @@ Long before code, people still had procedures, workflows, and deployment problem
 
 ---
 
-## A program as a chain of holes
+## From woven patterns to algebraical patterns
 
 <div class="grid grid-cols-2 gap-10 pt-8 items-start">
 <div>
   <div class="text-3xl leading-tight" style="max-width: 33rem;">
-    The Jacquard loom stored a weaving pattern in a chain of punched cards.
+    Jacquard cards made a pattern detachable from the loom: stored, copied, transported, and replayed by a machine.
   </div>
   <div class="pt-8 text-lg leading-snug" style="max-width: 34rem;">
-    That is a wonderfully strange moment in history: the program is physical, readable by a machine, and detachable from the inventor.
+    Babbage borrowed that punched-card logic for the Analytical Engine. Lovelace saw the deeper shift: the same mechanism could control symbolic operations, not only textile patterns.
+  </div>
+  <div class="pt-6 text-xl italic leading-snug" style="border-left: 3px solid rgba(8,145,178,0.4); padding-left: 1rem; max-width: 33rem;">
+    "weaves algebraical patterns just as the Jacquard-loom weaves flowers and leaves."
   </div>
 </div>
 <div>
@@ -211,12 +214,12 @@ Long before code, people still had procedures, workflows, and deployment problem
     <div class="rounded-xl px-2 py-5" style="border: 1px solid rgba(15,23,42,0.12);">card</div>
     <div class="rounded-xl px-2 py-5" style="border: 1px solid rgba(15,23,42,0.12);">card</div>
   </div>
-  <div class="mt-4 rounded-2xl px-5 py-5" style="background: rgba(8,145,178,0.07); border: 1px solid rgba(8,145,178,0.18);">
-    Hollerith later used punched cards to process the 1890 U.S. Census. The weird textile trick became a data-processing industry.
+  <div class="mt-6 rounded-2xl px-5 py-5" style="background: rgba(8,145,178,0.07); border: 1px solid rgba(8,145,178,0.18);">
+    The punched card did not begin as &ldquo;computer media.&rdquo; It began as a way to make a procedure detachable from the craft that first embodied it.
   </div>
 </div>
 </div>
-<div class="absolute bottom-4 right-6 text-xs opacity-60">Computer History Museum: Jacquard cards controlled weaving; Hollerith cards later powered census tabulation</div>
+<div class="absolute bottom-4 right-6 text-xs opacity-60">CHM: punched-card control begins in Jacquard textile machinery; Lovelace 1843: the Analytical Engine &ldquo;weaves algebraical patterns just as the Jacquard-loom weaves flowers and leaves&rdquo;</div>
 
 ---
 
@@ -237,6 +240,58 @@ Long before code, people still had procedures, workflows, and deployment problem
   <div class="rounded-2xl px-5 py-5" style="border: 1px solid rgba(15,23,42,0.12); background: rgba(153,27,27,0.06);">Failure mode: cassette save errors as minor tragedy</div>
 </div>
 </div>
+
+---
+
+## Package collections let software travel by reference
+
+<div class="grid grid-cols-2 gap-10 pt-8 items-start">
+<div>
+  <div class="text-3xl leading-tight" style="max-width: 33rem;">
+    A package collection changes deployment. Software becomes discoverable and installable from a shared repository rather than handed over as a pile of files.
+  </div>
+  <div class="pt-8 text-lg leading-snug" style="max-width: 34rem;">
+    A Debian package is a description: what the software is, what it depends on, and how to obtain and compose everything it needs to run. The repository holds those descriptions; the machine does the fetching and building.
+  </div>
+</div>
+<div>
+  <div class="rounded-2xl px-5 py-6" style="border: 1px solid rgba(15,23,42,0.12); background: rgba(15,23,42,0.04);">
+    <div class="text-sm uppercase tracking-widest opacity-60 mb-3">What travels now</div>
+    <div class="grid grid-cols-1 gap-3">
+      <div class="rounded-xl px-4 py-3" style="border: 1px solid rgba(15,23,42,0.12);">A named, versioned artifact</div>
+      <div class="rounded-xl px-4 py-3" style="border: 1px solid rgba(15,23,42,0.12);">A dependency description</div>
+      <div class="rounded-xl px-4 py-3" style="border: 1px solid rgba(8,145,178,0.18); background: rgba(8,145,178,0.07);">A pointer into a shared, maintained collection</div>
+    </div>
+  </div>
+  <div class="mt-6 rounded-2xl px-5 py-5" style="background: rgba(8,145,178,0.07); border: 1px solid rgba(8,145,178,0.18);">
+    The method moves farther because the package can be named, fetched, and rebuilt from a shared distribution system.
+  </div>
+</div>
+</div>
+<div class="absolute bottom-4 right-6 text-xs opacity-60">Debian project; GNU Guix: package collections make software distribution reproducible and declarative</div>
+
+---
+
+## Containers ship more of the runtime with the code
+
+<div class="grid grid-cols-2 gap-10 pt-8 items-start">
+<div>
+  <div class="text-3xl leading-tight" style="max-width: 33rem;">
+    A container image packages files, binaries, libraries, and configuration together. A registry stores and distributes those images.
+  </div>
+  <div class="pt-8 text-lg leading-snug" style="max-width: 34rem;">
+    This is a different deployment move from package repositories. Instead of relying on the target machine&rsquo;s environment, you ship a much larger chunk of the runnable environment itself.
+  </div>
+</div>
+<div>
+  <div class="grid grid-cols-1 gap-3">
+    <div class="rounded-2xl px-5 py-5" style="border: 1px solid rgba(15,23,42,0.12); background: rgba(15,23,42,0.04);">Package systems: distribute recipes and dependency graphs</div>
+    <div class="rounded-2xl px-5 py-5" style="border: 1px solid rgba(15,23,42,0.12); background: rgba(15,23,42,0.04);">Containers: distribute a far thicker runnable bundle</div>
+    <div class="rounded-2xl px-5 py-5" style="border: 1px solid rgba(8,145,178,0.18); background: rgba(8,145,178,0.07);">docker pull &rarr; docker run &mdash; the runtime arrives with the code</div>
+  </div>
+</div>
+</div>
+<div class="absolute bottom-4 right-6 text-xs opacity-60">Docker documentation: an image is a read-only template of instructions for creating a container</div>
 
 ---
 
@@ -395,22 +450,28 @@ That third box matters when distribution is painful, confidentiality matters, an
 
 ---
 
-<div class="grid grid-cols-2 gap-8 pt-8 items-start">
-<div>
-<img src="./assets/cfeintactdocs.png" style="border-radius: 18px; border: 1px solid rgba(15,23,42,0.14); box-shadow: 0 12px 28px rgba(0,0,0,0.14);">
+## CFEIntact, as the tool itself
+
+<div class="grid grid-cols-5 gap-6 pt-4 items-start" style="height: 76vh;">
+<div class="col-span-3" style="height: 72vh;">
+  <iframe src="https://cfe-lab.github.io/CFEIntact/app/" style="width: 100%; height: 100%; border-radius: 12px; border: 1px solid rgba(15,23,42,0.14); box-shadow: 0 12px 28px rgba(0,0,0,0.14);" loading="lazy"></iframe>
 </div>
-<div>
-<ul class="list-disc text-lg leading-snug" style="padding-left: 1.2rem; max-width: 31rem;">
-  <li>Reached by URL</li>
-  <li>Real biology task, not a toy benchmark</li>
-  <li>Interactive on the user's own machine</li>
-  <li>Sensitive input files can stay user-side</li>
-</ul>
-<div class="mt-8 rounded-2xl px-6 py-5" style="background: rgba(8,145,178,0.07); border: 1px solid rgba(8,145,178,0.18);">
-This is the moment where the long history lands in the room: the latest container is already usable for one of our own instruments.
+<div class="col-span-2">
+  <ul class="list-disc text-lg leading-snug" style="padding-left: 1.2rem; max-width: 22rem;">
+    <li>Reached by URL</li>
+    <li>Real lab-relevant biology task</li>
+    <li>Runs on the user&rsquo;s own machine</li>
+    <li>Sensitive files stay user-side</li>
+  </ul>
+  <div class="mt-8 rounded-2xl px-6 py-5" style="background: rgba(8,145,178,0.07); border: 1px solid rgba(8,145,178,0.18);">
+    The project still documents Docker as the easiest installation path. The browser-hosted version is a meaningful packaging shift, not just another skin.
+  </div>
+  <div class="mt-6 text-sm opacity-60" style="word-break: break-all;">
+    https://cfe-lab.github.io/CFEIntact/app/
+  </div>
 </div>
 </div>
-</div>
+<div class="absolute bottom-4 right-6 text-xs opacity-60">GitHub: cfe-lab/CFEIntact &mdash; Docker currently documented as primary install path; browser version demonstrates the new packaging option</div>
 
 ---
 
