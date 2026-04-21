@@ -395,8 +395,6 @@ That third box matters when distribution is painful, confidentiality matters, an
 
 ---
 
-## CFEIntact demo
-
 <div class="grid grid-cols-2 gap-8 pt-8 items-start">
 <div>
 <img src="./assets/cfeintactdocs.png" style="border-radius: 18px; border: 1px solid rgba(15,23,42,0.14); box-shadow: 0 12px 28px rgba(0,0,0,0.14);">
