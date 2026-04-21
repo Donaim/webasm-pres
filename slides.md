@@ -466,9 +466,11 @@ That third box matters when distribution is painful, confidentiality matters, an
   <div class="mt-8 rounded-2xl px-6 py-5" style="background: rgba(8,145,178,0.07); border: 1px solid rgba(8,145,178,0.18);">
     The project still documents Docker as the easiest installation path. The browser-hosted version is a meaningful packaging shift, not just another skin.
   </div>
-  <div class="mt-6 text-sm opacity-60" style="word-break: break-all;">
-    https://cfe-lab.github.io/CFEIntact/app/
-  </div>
+  <v-drag>
+    <div class="mt-6 text-sm opacity-60" style="word-break: break-all;">
+      https://cfe-lab.github.io/CFEIntact/app/
+    </div>
+  </v-drag>
 </div>
 </div>
 <div class="absolute bottom-4 right-6 text-xs opacity-60">GitHub: cfe-lab/CFEIntact &mdash; Docker currently documented as primary install path; browser version demonstrates the new packaging option</div>
