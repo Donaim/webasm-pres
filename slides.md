@@ -182,9 +182,6 @@ hideInToc: true
   <div class="pt-8 text-lg leading-snug" style="max-width: 34rem;">
     Babbage borrowed that punched-card logic for the Analytical Engine. Lovelace saw the deeper shift: the same mechanism could control symbolic operations, not only textile patterns.
   </div>
-  <div class="pt-6 text-xl italic leading-snug" style="border-left: 3px solid rgba(8,145,178,0.4); padding-left: 1rem; max-width: 33rem;">
-    "The Analytical Engine weaves algebraical patterns just as the Jacquard-loom weaves flowers and leaves."
-  </div>
 </div>
 <div>
   <div class="grid grid-cols-4 gap-2 text-center text-sm font-bold">
@@ -195,6 +192,9 @@ hideInToc: true
   </div>
   <div class="mt-6 rounded-2xl px-5 py-5" style="background: rgba(8,145,178,0.07); border: 1px solid rgba(8,145,178,0.18);">
     The punched card began as a way to make a procedure detachable from the craft that first embodied it.
+  </div>
+  <div class="pt-6 text-xl italic leading-snug" style="border-left: 3px solid rgba(8,145,178,0.4); padding-left: 1rem; max-width: 33rem;">
+    "The Analytical Engine weaves algebraical patterns just as the Jacquard-loom weaves flowers and leaves."
   </div>
 </div>
 </div>
