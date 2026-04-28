@@ -226,7 +226,7 @@ hideInToc: true
 <div class="grid grid-cols-2 gap-10 pt-8 items-start">
 <div>
   <div class="text-3xl leading-tight" style="max-width: 33rem;">
-    A package repository changes deployment. Software becomes discoverable and installable from a shared repository rather than handed over as a pile of files.
+    With package repositories software becomes discoverable and installable from a shared repository rather than handed over as a pile of files.
   </div>
   <div class="pt-8 text-lg leading-snug" style="max-width: 34rem;">
     A Debian package is a description: what the software is, what it depends on, and how to obtain and compose everything it needs to run. The repository holds those descriptions; the machine does the fetching and building.
