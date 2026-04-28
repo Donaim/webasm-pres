@@ -7,6 +7,7 @@ info: |
 class: text-left
 drawings:
   persist: true
+background: rgb(248,250,252)
 mdc: true
 zoom: 1.0
 hideInToc: true
