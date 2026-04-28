@@ -94,8 +94,6 @@ hideInToc: true
 
 ---
 
-## Sometimes the package was a verse
-
 <div class="pt-14">
   <div class="rounded-3xl px-8 py-8" style="background: #111827; color: #f8fafc; border: 1px solid rgba(255,255,255,0.08); max-width: 52rem;">
     <div class="text-4xl leading-tight" style="max-width: 45rem;">
