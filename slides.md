@@ -35,25 +35,25 @@ Long before code, people still had procedures, workflows, and deployment problem
 
 ---
 
-## When a computer was a person
+## Before software, methods still had to travel
 
-<div class="grid grid-cols-2 gap-10 pt-8 items-start">
-<div>
-  <img src="https://d2pn8kiwq2w21t.cloudfront.net/original_images/human_computers_1.jpg" style="border-radius: 22px; border: 1px solid rgba(15,23,42,0.14); box-shadow: 0 18px 40px rgba(15,23,42,0.16);">
+<div class="pt-14 text-3xl leading-snug" style="max-width: 48rem;">
+  This talk is about software packaging.
 </div>
-<div>
-  <div class="text-sm uppercase tracking-widest opacity-60 mb-3">Human runtime</div>
-  <ul class="text-lg leading-snug" style="max-width: 33rem; padding-left: 1.2rem;">
-    <li style="margin-bottom: 0.8rem;">Before machine computers were dependable enough, the procedure lived inside trained humans.</li>
-    <li style="margin-bottom: 0.8rem;">The runtime was a room full of people.</li>
-    <li>The deployment problem was training, coordination, and checking.</li>
-  </ul>
-  <div class="mt-8 rounded-2xl px-5 py-5" style="border: 1px solid rgba(8,145,178,0.18); background: rgba(8,145,178,0.07);">
-    <div class="text-2xl leading-tight">The humans were the hardware and runtime, and the learned procedure was the software.</div>
-  </div>
+
+<div class="pt-10 text-3xl leading-snug" style="max-width: 49rem;">
+  But packaging is only one chapter in a much older story:
 </div>
+
+<div class="pt-10 text-4xl leading-tight" style="max-width: 50rem; color: rgb(8,145,178);">
+  a method needs a host,
+  <br>
+  and it needs some way to be reproduced elsewhere.
 </div>
-<div class="absolute bottom-4 right-6 text-xs opacity-60">NASA/JPL: human computers handled launch windows, trajectories, telemetry checks, and later became early programmers</div>
+
+<div class="pt-12 text-xl leading-snug opacity-80" style="max-width: 46rem;">
+  Long before code, people were already solving that problem.
+</div>
 
 ---
 
