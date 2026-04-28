@@ -198,7 +198,7 @@ hideInToc: true
   </div>
 </div>
 </div>
-<div class="absolute bottom-4 right-6 text-xs opacity-60">CHM: punched-card control begins in Jacquard textile machinery; Lovelace 1843: the Analytical Engine &ldquo;weaves algebraical patterns just as the Jacquard-loom weaves flowers and leaves&rdquo;</div>
+<div class="absolute bottom-4 right-6 left-10 text-xs opacity-60">CHM: punched-card control begins in Jacquard textile machinery; Lovelace 1843: the Analytical Engine &ldquo;weaves algebraical patterns just as the Jacquard-loom weaves flowers and leaves&rdquo;</div>
 
 ---
 
