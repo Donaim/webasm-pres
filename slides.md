@@ -31,7 +31,7 @@ hideInToc: true
 
 ---
 
-## Packaging is an old problem
+# Packaging is an old problem
 
 <div class="pt-14 text-3xl leading-snug" style="max-width: 48rem;">
   This talk is a history of software packaging.
@@ -53,7 +53,7 @@ hideInToc: true
 
 ---
 
-## A rule you can sing / A workflow song
+# A rule you can sing / A workflow song
 
 <div class="grid grid-cols-2 gap-6 pt-6 items-stretch">
 <div class="rounded-2xl px-6 py-6" style="border: 1px solid rgba(15,23,42,0.12); background: rgba(15,23,42,0.04);">
@@ -108,7 +108,7 @@ hideInToc: true
 
 ---
 
-## Smuggling the runtime
+# Smuggling the runtime
 
 <div class="grid grid-cols-2 gap-10 pt-8 items-start">
 <div>
@@ -136,7 +136,7 @@ hideInToc: true
 
 ---
 
-## Shipping a live process
+# Shipping a live process
 
 <div class="grid grid-cols-2 gap-10 pt-8 items-start">
 <div>
@@ -172,7 +172,7 @@ hideInToc: true
 
 ---
 
-## From woven patterns to algebraical patterns
+# From woven patterns to algebraical patterns
 
 <div class="grid grid-cols-2 gap-10 pt-8 items-start">
 <div>
@@ -202,7 +202,7 @@ hideInToc: true
 
 ---
 
-## Magazines were once app stores
+# Magazines were once app stores
 
 <div class="grid grid-cols-2 gap-10 pt-8 items-start">
 <div>
@@ -222,7 +222,7 @@ hideInToc: true
 
 ---
 
-## Package collections let software travel by reference
+# Package collections let software travel by reference
 
 <div class="grid grid-cols-2 gap-10 pt-8 items-start">
 <div>
@@ -251,7 +251,7 @@ hideInToc: true
 
 ---
 
-## Containers ship more of the runtime with the code
+# Containers ship more of the runtime with the code
 
 <div class="grid grid-cols-2 gap-10 pt-8 items-start">
 <div>
@@ -274,7 +274,7 @@ hideInToc: true
 
 ---
 
-## 1993: the browser stops being plain text
+# 1993: the browser stops being plain text
 
 <div class="grid grid-cols-5 gap-8 pt-8 items-start">
 <div class="col-span-3">
@@ -297,7 +297,7 @@ hideInToc: true
 
 ---
 
-## The browser learns behavior
+# The browser learns behavior
 
 <div class="grid grid-cols-2 gap-10 pt-8 items-start">
 <div>
@@ -323,7 +323,7 @@ Objection, and a real one: executable code arriving through what had been a pass
 
 ---
 
-## The browser becomes a platform
+# The browser becomes a platform
 
 <div class="grid grid-cols-3 gap-4 pt-6">
 <div class="rounded-2xl px-5 py-5" style="border: 1px solid rgba(15,23,42,0.12); background: rgba(15,23,42,0.04);">
@@ -358,7 +358,7 @@ The accumulated result: a user-space operating environment delivered through a U
 
 ---
 
-## The browser kept trying to smuggle in a runtime
+# The browser kept trying to smuggle in a runtime
 
 <div class="grid grid-cols-4 gap-4 pt-8 text-center items-stretch">
 <div class="rounded-2xl px-4 py-6" style="border: 1px solid rgba(15,23,42,0.12); background: rgba(15,23,42,0.04);">
@@ -385,7 +385,7 @@ Different hacks, same desire: once the browser had become a richer host environm
 
 ---
 
-## What WebAssembly finally changes
+# What WebAssembly finally changes
 
 <div class="grid grid-cols-2 gap-10 pt-8 items-start">
 <div>
@@ -412,7 +412,7 @@ What makes WebAssembly interesting here is that this increasingly OS-like browse
 
 ---
 
-## ReCall, QAI, and the new packaging option
+# ReCall, QAI, and the new packaging option
 
 <div class="grid grid-cols-3 gap-5 pt-8 text-center items-stretch">
 <div class="rounded-2xl px-5 py-6" style="border: 1px solid rgba(15,23,42,0.12); background: rgba(15,23,42,0.04);">
@@ -440,7 +440,7 @@ layout: iframe-right
 url: https://cfe-lab.github.io/CFEIntact/app/
 ---
 
-## CFEIntact, as the tool itself
+# CFEIntact, as the tool itself
 
 <ul class="list-disc text-lg leading-snug pt-8" style="padding-left: 1.2rem; max-width: 22rem;">
 <li>Reached by URL</li>
@@ -457,7 +457,7 @@ https://cfe-lab.github.io/CFEIntact/app/
 
 ---
 
-## What should we package this way next?
+# What should we package this way next?
 
 <div class="grid grid-cols-2 gap-4 pt-8 text-center">
   <div class="rounded-2xl px-5 py-6" style="border: 1px solid rgba(15,23,42,0.12);">FASTQ or coverage viewer that opens local files directly</div>
