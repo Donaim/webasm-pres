@@ -238,7 +238,7 @@ hideInToc: true
     <div class="grid grid-cols-1 gap-3">
       <div class="rounded-xl px-4 py-3" style="border: 1px solid rgba(15,23,42,0.12);">A named, versioned artifact</div>
       <div class="rounded-xl px-4 py-3" style="border: 1px solid rgba(15,23,42,0.12);">A dependency description</div>
-      <div class="rounded-xl px-4 py-3" style="border: 1px solid rgba(8,145,178,0.18); background: rgba(8,145,178,0.07);">A pointer into a shared, maintained repository</div>
+      <div class="rounded-xl px-4 py-3" style="border: 1px solid rgba(8,145,178,0.18); background: rgba(8,145,178,0.07);">A pointer into a shared, maintained source</div>
     </div>
   </div>
 </div>
