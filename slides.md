@@ -465,7 +465,7 @@ https://cfe-lab.github.io/CFEIntact/app/
     Phylogenetic tree builder
   </div>
   <div class="rounded-2xl px-5 py-6" style="border: 1px solid rgba(15,23,42,0.12);">
-    Protein structure viewer
+    Most of BBLabs
   </div>
 </div>
 <div class="mt-8 rounded-2xl px-6 py-5" style="background: rgba(8,145,178,0.07); border: 1px solid rgba(8,145,178,0.18); max-width: 48rem;">
