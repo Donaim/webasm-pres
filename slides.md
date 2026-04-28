@@ -282,12 +282,6 @@ hideInToc: true
     NCSA's big move was simple and enormous: pictures appeared automatically alongside text. After that, the browser keeps accumulating capabilities that make it feel more and more like a multimedia system.
   </div>
 </div>
-<div class="col-span-2 rounded-2xl px-6 py-6" style="background: rgba(15,23,42,0.05); border: 1px solid rgba(15,23,42,0.12);">
-  <div class="text-sm uppercase tracking-widest opacity-60 mb-3">Mutation</div>
-  <div class="text-xl leading-snug">
-    The browser stops being a page of linked text and starts becoming a software platform.
-  </div>
-</div>
 </div>
 <div class="absolute bottom-4 right-6 text-xs opacity-60">NCSA Mosaic: first published browser to automatically display pictures with text</div>
 
