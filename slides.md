@@ -1,9 +1,9 @@
 ---
-title: How Methods Travel
+title: Packaging Methods
 theme: seriph
 info: |
-  ## How Methods Travel
-  People keep inventing containers that let methods travel farther than the inventor.
+  ## Packaging Methods
+  A history of how procedures get packaged and deployed — from verse to WebAssembly.
 class: text-left
 drawings:
   persist: true
@@ -13,16 +13,16 @@ hideInToc: true
 ---
 
 <div class="pt-14">
-  <div class="uppercase tracking-widest text-sm opacity-60">Before software</div>
+  <div class="uppercase tracking-widest text-sm opacity-60">Software packaging</div>
   <h1 style="font-size: 3em; line-height: 1.02; margin-top: 0.45rem; max-width: 42rem;">
-    How Methods Travel
+    Packaging Methods
   </h1>
   <p style="font-size: 1.3em; max-width: 41rem; margin-top: 1.3rem; line-height: 1.35;">
-    People keep inventing containers that let methods travel farther than the inventor.
+    A history of how procedures get packaged and deployed — from verse to WebAssembly.
   </p>
 </div>
 <div class="mt-12 rounded-2xl px-6 py-6" style="background: rgba(8,145,178,0.07); border: 1px solid rgba(8,145,178,0.18); max-width: 48rem;">
-Long before code, people still had procedures, workflows, and deployment problems.
+The same deployment problem keeps appearing: a method needs to move from here to there.
 </div>
 <div class="absolute bottom-8 left-0 right-0 grid grid-cols-6 gap-4 text-center text-sm opacity-75">
   <div>People</div>
@@ -35,20 +35,20 @@ Long before code, people still had procedures, workflows, and deployment problem
 
 ---
 
-## Before software, methods still had to travel
+## Packaging is an old problem
 
 <div class="pt-14 text-3xl leading-snug" style="max-width: 48rem;">
-  This talk is about software packaging.
+  This talk is a history of software packaging.
 </div>
 
 <div class="pt-10 text-3xl leading-snug" style="max-width: 49rem;">
-  But packaging is only one chapter in a much older story:
+  The history stretches further back than the word "software":
 </div>
 
 <div class="pt-10 text-4xl leading-tight" style="max-width: 50rem; color: rgb(8,145,178);">
-  a method needs a host,
+  every method needs a host,
   <br>
-  and it needs some way to be reproduced elsewhere.
+  and some way to be reproduced elsewhere.
 </div>
 
 <div class="pt-12 text-xl leading-snug opacity-80" style="max-width: 46rem;">
@@ -69,7 +69,7 @@ Long before code, people still had procedures, workflows, and deployment problem
     </div>
   </div>
   <div class="pt-8 text-xl leading-snug" style="max-width: 42rem;">
-    Verse is not only decorative. Often it is compression.
+    Verse is compression: portable, replayable, and memory-efficient.
   </div>
 </div>
 <div class="absolute bottom-4 right-6 text-xs opacity-60">OUP: instructional verse and medical verse were long used for memorability and portability</div>
@@ -140,14 +140,11 @@ Long before code, people still had procedures, workflows, and deployment problem
   </div>
 </div>
 <div>
-  <div class="text-4xl leading-tight" style="max-width: 28rem;">
-    The instructions were not enough.
-  </div>
-  <div class="pt-6 text-4xl leading-tight" style="max-width: 28rem; color: rgb(8,145,178);">
+  <div class="text-4xl leading-tight" style="max-width: 28rem; color: rgb(8,145,178);">
     The runtime had to be smuggled.
   </div>
   <div class="pt-8 text-lg leading-snug" style="max-width: 32rem;">
-    The Justinian story only works because the important thing was not a manual. It was eggs, warmth, mulberry leaves, and know-how moving together.
+    Eggs, warmth, mulberry leaves, and know-how all had to travel together.
   </div>
 </div>
 </div>
@@ -178,11 +175,8 @@ Long before code, people still had procedures, workflows, and deployment problem
   </div>
 </div>
 <div>
-  <div class="text-4xl leading-tight" style="max-width: 28rem;">
-    The procedure was known.
-  </div>
-  <div class="pt-6 text-4xl leading-tight" style="max-width: 30rem; color: rgb(153,27,27);">
-    The hard part was transporting a viable instance of it.
+  <div class="text-4xl leading-tight" style="max-width: 30rem; color: rgb(153,27,27);">
+    Transporting a viable instance of the procedure was the hard part.
   </div>
   <div class="pt-8 text-lg leading-snug" style="max-width: 33rem;">
     The Balmis expedition carried the vaccine as a running biological chain. Documentation and local setup traveled alongside the live material.
@@ -204,7 +198,7 @@ Long before code, people still had procedures, workflows, and deployment problem
     Babbage borrowed that punched-card logic for the Analytical Engine. Lovelace saw the deeper shift: the same mechanism could control symbolic operations, not only textile patterns.
   </div>
   <div class="pt-6 text-xl italic leading-snug" style="border-left: 3px solid rgba(8,145,178,0.4); padding-left: 1rem; max-width: 33rem;">
-    "weaves algebraical patterns just as the Jacquard-loom weaves flowers and leaves."
+    "The Analytical Engine weaves algebraical patterns just as the Jacquard-loom weaves flowers and leaves."
   </div>
 </div>
 <div>
@@ -215,7 +209,7 @@ Long before code, people still had procedures, workflows, and deployment problem
     <div class="rounded-xl px-2 py-5" style="border: 1px solid rgba(15,23,42,0.12);">card</div>
   </div>
   <div class="mt-6 rounded-2xl px-5 py-5" style="background: rgba(8,145,178,0.07); border: 1px solid rgba(8,145,178,0.18);">
-    The punched card did not begin as &ldquo;computer media.&rdquo; It began as a way to make a procedure detachable from the craft that first embodied it.
+    The punched card began as a way to make a procedure detachable from the craft that first embodied it.
   </div>
 </div>
 </div>
@@ -280,7 +274,7 @@ Long before code, people still had procedures, workflows, and deployment problem
     A container image packages files, binaries, libraries, and configuration together. A registry stores and distributes those images.
   </div>
   <div class="pt-8 text-lg leading-snug" style="max-width: 34rem;">
-    This is a different deployment move from package repositories. Instead of relying on the target machine&rsquo;s environment, you ship a much larger chunk of the runnable environment itself.
+    Containers bundle a much larger chunk of the runnable environment itself, making deployment far less dependent on what is already installed.
   </div>
 </div>
 <div>
@@ -301,7 +295,7 @@ Long before code, people still had procedures, workflows, and deployment problem
 <div class="col-span-3">
   <div class="text-3xl leading-tight" style="max-width: 34rem;">
     Much later, the browser becomes another strange container.
-    Mosaic is the turning point where it starts becoming a richer software environment, not just a terminal for linked text.
+    Mosaic is the turning point where it starts becoming a programmable software environment.
   </div>
   <div class="pt-8 text-lg leading-snug" style="max-width: 34rem;">
     NCSA's big move was simple and enormous: pictures appeared automatically alongside text. After that, the browser keeps accumulating capabilities that make it feel more and more like a general host for software.
@@ -327,7 +321,7 @@ Long before code, people still had procedures, workflows, and deployment problem
     Then XHR and Ajax teach it to change without turning the page.
   </div>
   <div class="pt-8 text-lg leading-snug" style="max-width: 33rem;">
-    That is the moment the browser stops acting like a stack of documents and starts acting like a programmable environment.
+    That is when the browser becomes a programmable environment.
   </div>
 </div>
 <div class="grid grid-cols-1 gap-4 text-center">
@@ -365,7 +359,7 @@ Long before code, people still had procedures, workflows, and deployment problem
 </div>
 </div>
 <div class="mt-10 text-xl leading-snug" style="max-width: 49rem;">
-This is not one feature. It is a series of species changes. Rendering, graphics, storage, worker scheduling, offline survival, and GPU access accumulate until the browser starts looking less like a viewer and more like a user-space operating environment.
+These are a series of species changes. Rendering, graphics, storage, worker scheduling, offline survival, and GPU access accumulate until the browser becomes a user-space operating environment.
 </div>
 <div class="absolute bottom-4 right-6 text-xs opacity-60">Canvas, WebGL, Web Workers, service workers, and WebGPU progressively expanded the browser's role</div>
 
@@ -419,7 +413,7 @@ Different hacks, same desire: once the browser had become a richer host environm
 </div>
 </div>
 <div class="mt-10 rounded-2xl px-6 py-5" style="background: rgba(8,145,178,0.07); border: 1px solid rgba(8,145,178,0.18); max-width: 49rem;">
-WebAssembly is not interesting here because it is low-level. It is interesting because this increasingly OS-like browser environment can now host larger pieces of existing software inside a browser-delivered tool.
+What makes WebAssembly interesting here is that this increasingly OS-like browser environment can now host larger pieces of existing software inside a browser-delivered tool.
 </div>
 <div class="absolute bottom-4 right-6 text-xs opacity-60">MDN: Wasm complements JavaScript and lets code from multiple languages run in modern browsers</div>
 
@@ -449,31 +443,24 @@ That third box matters when distribution is painful, confidentiality matters, an
 </div>
 
 ---
+layout: iframe-right
+url: https://cfe-lab.github.io/CFEIntact/app/
+---
 
 ## CFEIntact, as the tool itself
 
-<div class="grid grid-cols-5 gap-6 pt-4 items-start" style="height: 76vh;">
-<div class="col-span-3" style="height: 72vh;">
-  <iframe src="https://cfe-lab.github.io/CFEIntact/app/" style="width: 100%; height: 100%; border-radius: 12px; border: 1px solid rgba(15,23,42,0.14); box-shadow: 0 12px 28px rgba(0,0,0,0.14);" loading="lazy"></iframe>
+<ul class="list-disc text-lg leading-snug pt-8" style="padding-left: 1.2rem; max-width: 22rem;">
+<li>Reached by URL</li>
+<li>Real lab-relevant biology task</li>
+<li>Runs on the user&rsquo;s own machine</li>
+<li>Sensitive files stay user-side</li>
+</ul>
+<div class="mt-8 rounded-2xl px-6 py-5" style="background: rgba(8,145,178,0.07); border: 1px solid rgba(8,145,178,0.18);">
+The project still documents Docker as the easiest installation path. The browser-hosted version is a meaningful packaging shift.
 </div>
-<div class="col-span-2">
-  <ul class="list-disc text-lg leading-snug" style="padding-left: 1.2rem; max-width: 22rem;">
-    <li>Reached by URL</li>
-    <li>Real lab-relevant biology task</li>
-    <li>Runs on the user&rsquo;s own machine</li>
-    <li>Sensitive files stay user-side</li>
-  </ul>
-  <div class="mt-8 rounded-2xl px-6 py-5" style="background: rgba(8,145,178,0.07); border: 1px solid rgba(8,145,178,0.18);">
-    The project still documents Docker as the easiest installation path. The browser-hosted version is a meaningful packaging shift, not just another skin.
-  </div>
-  <v-drag>
-    <div class="mt-6 text-sm opacity-60" style="word-break: break-all;">
-      https://cfe-lab.github.io/CFEIntact/app/
-    </div>
-  </v-drag>
+<div class="mt-6 text-sm opacity-60" style="word-break: break-all;">
+https://cfe-lab.github.io/CFEIntact/app/
 </div>
-</div>
-<div class="absolute bottom-4 right-6 text-xs opacity-60">GitHub: cfe-lab/CFEIntact &mdash; Docker currently documented as primary install path; browser version demonstrates the new packaging option</div>
 
 ---
 
@@ -494,8 +481,8 @@ These are good candidates when installation hurts more than the algorithm, and w
 ## Closing takeaway
 
 <div class="pt-12 text-4xl leading-tight" style="max-width: 49rem;">
-The browser is not the first strange container people have used to move a method.
+The browser is the latest in a long line of strange containers people have invented to move a method.
 </div>
 <div class="pt-10 text-3xl leading-tight" style="max-width: 49rem;">
-It is just the latest one, and WebAssembly is one reason more of our lab software can finally fit inside it.
+WebAssembly is one reason more of our existing lab software can now fit inside it.
 </div>
