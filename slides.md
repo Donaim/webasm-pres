@@ -53,6 +53,47 @@ hideInToc: true
 
 ---
 
+## A rule you can sing / A workflow song
+
+<div class="grid grid-cols-2 gap-6 pt-6 items-stretch">
+<div class="rounded-2xl px-6 py-6" style="border: 1px solid rgba(15,23,42,0.12); background: rgba(15,23,42,0.04);">
+  <div class="text-sm uppercase tracking-widest opacity-60 mb-3">A rule you can sing</div>
+  <div class="text-2xl leading-tight" style="max-width: 24rem;">
+    When the cuckoo comes to the bare thorn,<br>
+    Sell your cow and buy your corn;<br>
+    But when she comes to the full bit,<br>
+    Sell your corn and buy your sheep.
+  </div>
+  <div class="mt-8 rounded-xl px-4 py-4 text-lg" style="background: rgba(8,145,178,0.07); border: 1px solid rgba(8,145,178,0.18); display: inline-block;">
+    Condition -&gt; decision rule
+  </div>
+</div>
+<div class="rounded-2xl px-6 py-6" style="border: 1px solid rgba(15,23,42,0.12); background: rgba(15,23,42,0.04);">
+  <div class="text-sm uppercase tracking-widest opacity-60 mb-3">A workflow song</div>
+  <div style="font-size: 0.85em; line-height: 1.4; max-width: 28rem;">
+    <div style="font-size: 1.05em; line-height: 1.5;">
+      七月流火、八月萑苇。<br>
+      蚕月条桑、取彼斧斨、以伐远扬、猗彼女桑。<br>
+      七月鸣鵙、八月载绩。<br>
+      载玄载黄、我朱孔阳、为公子裳。
+    </div>
+    <div class="mt-3 italic opacity-80" style="line-height: 1.5;">
+      In the seventh month, the Fire Star marks the season;<br>
+      in the silkworm month they strip the mulberry branches and take up their axes.<br>
+      When the shrike calls in the seventh month,<br>
+      spinning begins in the eighth —<br>
+      dark and yellow cloth, bright red, for the robes of the princes.
+    </div>
+  </div>
+  <div class="mt-4 rounded-xl px-4 py-4 text-lg" style="background: rgba(8,145,178,0.07); border: 1px solid rgba(8,145,178,0.18); display: inline-block;">
+    A seasonal labor sequence in verse
+  </div>
+</div>
+</div>
+<div class="absolute bottom-4 right-6 text-xs opacity-60">Presscom: the cuckoo rhyme is preserved as an agricultural proverb; Berkshire: Qi Yue is treated as a farming-calendar poem listing seasonal work</div>
+
+---
+
 ## Sometimes the package was a verse
 
 <div class="pt-14">
@@ -69,53 +110,6 @@ hideInToc: true
   </div>
 </div>
 <div class="absolute bottom-4 right-6 text-xs opacity-60">OUP: instructional verse and medical verse were long used for memorability and portability</div>
-
----
-
-## A rule you can sing / A workflow song
-
-<div class="grid grid-cols-2 gap-6 pt-6 items-start">
-<div class="rounded-2xl px-6 py-6" style="border: 1px solid rgba(15,23,42,0.12); background: rgba(15,23,42,0.04); min-height: 28rem;">
-  <div class="text-sm uppercase tracking-widest opacity-60 mb-3">A rule you can sing</div>
-  <div class="text-2xl leading-tight" style="max-width: 24rem;">
-    When the cuckoo comes to the bare thorn,<br>
-    Sell your cow and buy your corn;<br>
-    But when she comes to the full bit,<br>
-    Sell your corn and buy your sheep.
-  </div>
-  <div class="mt-8 rounded-xl px-4 py-4 text-lg" style="background: rgba(8,145,178,0.07); border: 1px solid rgba(8,145,178,0.18); display: inline-block;">
-    Condition -&gt; decision rule
-  </div>
-</div>
-<div class="rounded-2xl px-6 py-6" style="border: 1px solid rgba(15,23,42,0.12); background: rgba(15,23,42,0.04); min-height: 28rem;">
-  <div class="text-sm uppercase tracking-widest opacity-60 mb-3">A workflow song</div>
-  <div style="font-size: 0.76em; line-height: 1.32; max-width: 28rem;">
-    <div style="font-size: 1.1em; line-height: 1.55;">
-      七月流火、八月萑苇。<br>
-      蚕月条桑、取彼斧斨、以伐远扬、猗彼女桑。<br>
-      七月鸣鵙、八月载绩。<br>
-      载玄载黄、我朱孔阳、为公子裳。
-    </div>
-    <div class="mt-4 italic opacity-80">
-      In the seventh month, the Fire Star passes the meridian;<br>
-      In the eighth month are the sedges and reeds.<br>
-      In the silkworm month they strip the mulberry branches of their leaves,<br>
-      And take their axes and hatchets,<br>
-      To lop off those that are distant and high;<br>
-      Only stripping the young trees of their leaves.<br>
-      In the seventh month, the shrike is heard;<br>
-      In the eighth month, they begin their spinning;<br>
-      They make dark fabrics and yellow.<br>
-      Our red manufacture is very brilliant,<br>
-      It is for the lower robes of our young princes.
-    </div>
-  </div>
-  <div class="mt-4 rounded-xl px-4 py-4 text-lg" style="background: rgba(8,145,178,0.07); border: 1px solid rgba(8,145,178,0.18); display: inline-block;">
-    A seasonal labor sequence in verse
-  </div>
-</div>
-</div>
-<div class="absolute bottom-4 right-6 text-xs opacity-60">Presscom: the cuckoo rhyme is preserved as an agricultural proverb; Berkshire: Qi Yue is treated as a farming-calendar poem listing seasonal work</div>
 
 ---
 
@@ -328,36 +322,44 @@ hideInToc: true
 </div>
 <div class="absolute bottom-4 right-6 text-xs opacity-60">JavaScript created at Netscape in 1995; XHR and Ajax enabled partial-page updates</div>
 
+<!--
+Objection, and a real one: executable code arriving through what had been a passive viewer is a fundamentally different security risk. System administrators immediately pushed back. The browser had no sandbox when JavaScript shipped — the same-origin policy was added afterward as a patch under pressure. Java applets and Flash drew the same criticism louder. Every new browser capability since has had to answer the same question first: who controls what the code is allowed to do?
+-->
+
 ---
 
-## The browser learns to draw, wait, and persist
+## The browser becomes a platform
 
-<div class="grid grid-cols-5 gap-4 pt-8 text-center">
-<div class="rounded-2xl px-4 py-5" style="border: 1px solid rgba(15,23,42,0.12); background: rgba(15,23,42,0.04);">
-  <div class="text-sm uppercase tracking-widest opacity-60 mb-2">Canvas</div>
-  <div class="text-lg">JavaScript paints pixels</div>
+<div class="grid grid-cols-3 gap-4 pt-6">
+<div class="rounded-2xl px-5 py-5" style="border: 1px solid rgba(15,23,42,0.12); background: rgba(15,23,42,0.04);">
+  <div class="text-sm uppercase tracking-widest opacity-60 mb-2">Canvas · WebGL · WebGPU</div>
+  <div class="text-lg leading-snug">2D pixel drawing, GPU-accelerated 3D, massively parallel compute</div>
 </div>
-<div class="rounded-2xl px-4 py-5" style="border: 1px solid rgba(15,23,42,0.12); background: rgba(15,23,42,0.04);">
-  <div class="text-sm uppercase tracking-widest opacity-60 mb-2">WebGL</div>
-  <div class="text-lg">GPU graphics without plug-ins</div>
+<div class="rounded-2xl px-5 py-5" style="border: 1px solid rgba(15,23,42,0.12); background: rgba(15,23,42,0.04);">
+  <div class="text-sm uppercase tracking-widest opacity-60 mb-2">Web Workers</div>
+  <div class="text-lg leading-snug">Heavy computation moves off the UI thread; the page stays responsive</div>
 </div>
-<div class="rounded-2xl px-4 py-5" style="border: 1px solid rgba(15,23,42,0.12); background: rgba(15,23,42,0.04);">
-  <div class="text-sm uppercase tracking-widest opacity-60 mb-2">Workers</div>
-  <div class="text-lg">Heavy work leaves the UI thread</div>
+<div class="rounded-2xl px-5 py-5" style="border: 1px solid rgba(15,23,42,0.12); background: rgba(15,23,42,0.04);">
+  <div class="text-sm uppercase tracking-widest opacity-60 mb-2">IndexedDB · localStorage</div>
+  <div class="text-lg leading-snug">Structured persistent state without a server round-trip</div>
 </div>
-<div class="rounded-2xl px-4 py-5" style="border: 1px solid rgba(15,23,42,0.12); background: rgba(15,23,42,0.04);">
-  <div class="text-sm uppercase tracking-widest opacity-60 mb-2">Service workers</div>
-  <div class="text-lg">The app survives bad networks</div>
+<div class="rounded-2xl px-5 py-5" style="border: 1px solid rgba(15,23,42,0.12); background: rgba(15,23,42,0.04);">
+  <div class="text-sm uppercase tracking-widest opacity-60 mb-2">WebSockets · WebRTC</div>
+  <div class="text-lg leading-snug">Persistent two-way and peer-to-peer connections, not just request-response</div>
 </div>
-<div class="rounded-2xl px-4 py-5" style="border: 1px solid rgba(8,145,178,0.18); background: rgba(8,145,178,0.07);">
-  <div class="text-sm uppercase tracking-widest opacity-60 mb-2">WebGPU</div>
-  <div class="text-lg">Now the browser learns compute too</div>
+<div class="rounded-2xl px-5 py-5" style="border: 1px solid rgba(15,23,42,0.12); background: rgba(15,23,42,0.04);">
+  <div class="text-sm uppercase tracking-widest opacity-60 mb-2">Service Workers · Cache API</div>
+  <div class="text-lg leading-snug">Intercept every network request; the app keeps running when the network disappears</div>
+</div>
+<div class="rounded-2xl px-5 py-5" style="border: 1px solid rgba(8,145,178,0.18); background: rgba(8,145,178,0.07);">
+  <div class="text-sm uppercase tracking-widest opacity-60 mb-2">File access · Web Audio · USB · Geolocation</div>
+  <div class="text-lg leading-snug">The browser reaches into the machine and the physical world</div>
 </div>
 </div>
-<div class="mt-10 text-xl leading-snug" style="max-width: 49rem;">
-These are a series of species changes. Rendering, graphics, storage, worker scheduling, offline survival, and GPU access accumulate until the browser becomes a user-space operating environment.
+<div class="mt-8 text-xl leading-snug" style="max-width: 49rem;">
+The accumulated result: a user-space operating environment delivered through a URL.
 </div>
-<div class="absolute bottom-4 right-6 text-xs opacity-60">Canvas, WebGL, Web Workers, service workers, and WebGPU progressively expanded the browser's role</div>
+<div class="absolute bottom-4 right-6 text-xs opacity-60">Canvas 2004, Web Workers 2010, IndexedDB 2011, WebRTC 2012, Service Workers 2015, WebGPU 2023 — each capability would have seemed out of place in a document viewer</div>
 
 ---
 
