@@ -471,7 +471,7 @@ These are good candidates when installation hurts more than the algorithm, and w
 
 ---
 
-## Closing takeaway
+# Closing takeaway
 
 <div class="pt-12 text-4xl leading-tight" style="max-width: 49rem;">
 The browser is the latest in a long line of strange containers people have invented to move a method.
