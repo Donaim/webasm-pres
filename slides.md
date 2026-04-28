@@ -287,25 +287,45 @@ hideInToc: true
 
 ---
 
-# The browser learns behavior
+# The browser starts running code
 
 <div class="grid grid-cols-2 gap-10 pt-8 items-start">
 <div>
-  <div class="text-3xl leading-tight" style="max-width: 32rem;">
-    First JavaScript makes the page react.
-    Then XHR and Ajax teach it to change without turning the page.
+  <div class="text-2xl leading-snug" style="max-width: 32rem;">
+    Before JavaScript, the server owns all computation.
+    Every interaction is a round-trip: click, wait, new page.
+    The browser is a <em>display terminal</em> for someone else's machine.
   </div>
-  <div class="pt-8 text-lg leading-snug" style="max-width: 33rem;">
-    That is when the browser becomes a programmable environment.
+  <div class="pt-8 rounded-2xl px-6 py-5" style="background: rgba(8,145,178,0.07); border: 1px solid rgba(8,145,178,0.18); max-width: 32rem;">
+    JavaScript ships a runtime with the page.
+    Computation runs on the user's machine.
+    The server becomes optional for most interactions.
+  </div>
+  <div class="pt-6 text-base leading-snug opacity-70" style="max-width: 32rem;">
+    XHR and Ajax are an optimization on top of this: they let the page reach the server without reloading.
+    The real change already happened when code started running locally at all.
   </div>
 </div>
-<div class="grid grid-cols-1 gap-4 text-center">
-  <div class="rounded-2xl px-5 py-5" style="border: 1px solid rgba(15,23,42,0.12);">1995: page scripts react to clicks and forms</div>
-  <div class="rounded-2xl px-5 py-5" style="border: 1px solid rgba(15,23,42,0.12);">XHR: fetch data without a full refresh</div>
-  <div class="rounded-2xl px-5 py-5" style="border: 1px solid rgba(8,145,178,0.18); background: rgba(8,145,178,0.07);">Ajax: only part of the page changes, but the app keeps going</div>
+<div class="grid grid-cols-1 gap-3">
+  <div class="rounded-2xl px-5 py-4" style="border: 1px solid rgba(15,23,42,0.12); background: rgba(15,23,42,0.04);">
+    <div class="text-xs uppercase tracking-widest opacity-60 mb-1">Form validation</div>
+    <div class="text-lg">The form tells you what is wrong before one byte leaves your machine</div>
+  </div>
+  <div class="rounded-2xl px-5 py-4" style="border: 1px solid rgba(15,23,42,0.12); background: rgba(15,23,42,0.04);">
+    <div class="text-xs uppercase tracking-widest opacity-60 mb-1">Google Maps, 2005</div>
+    <div class="text-lg">The map pans and zooms smoothly &mdash; no round-trip, no new page</div>
+  </div>
+  <div class="rounded-2xl px-5 py-4" style="border: 1px solid rgba(15,23,42,0.12); background: rgba(15,23,42,0.04);">
+    <div class="text-xs uppercase tracking-widest opacity-60 mb-1">Games</div>
+    <div class="text-lg">Entire games run in the browser with the server completely absent</div>
+  </div>
+  <div class="rounded-2xl px-5 py-4" style="border: 1px solid rgba(8,145,178,0.18); background: rgba(8,145,178,0.07);">
+    <div class="text-xs uppercase tracking-widest opacity-60 mb-1">Packaging shift</div>
+    <div class="text-lg">The URL now delivers executable code, not just a document</div>
+  </div>
 </div>
 </div>
-<div class="absolute bottom-4 right-6 text-xs opacity-60">JavaScript created at Netscape in 1995; XHR and Ajax enabled partial-page updates</div>
+<div class="absolute bottom-4 right-6 text-xs opacity-60">JavaScript created at Netscape in ten days in 1995; its long-term effect was to move computation from servers into URL-delivered pages</div>
 
 <!--
 Objection, and a real one: executable code arriving through what had been a passive viewer is a fundamentally different security risk. System administrators immediately pushed back. The browser had no sandbox when JavaScript shipped — the same-origin policy was added afterward as a patch under pressure. Java applets and Flash drew the same criticism louder. Every new browser capability since has had to answer the same question first: who controls what the code is allowed to do?
