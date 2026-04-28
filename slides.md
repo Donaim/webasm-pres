@@ -279,7 +279,7 @@ hideInToc: true
     The "Mosaic" Browser is the turning point.
   </div>
   <div class="pt-8 text-lg leading-snug" style="max-width: 34rem;">
-    NCSA's big move was simple and enormous: pictures appeared automatically alongside text. After that, the browser keeps accumulating capabilities that make it feel more and more like a general host for software.
+    NCSA's big move was simple and enormous: pictures appeared automatically alongside text. After that, the browser keeps accumulating capabilities that make it feel more and more like a multimedia system.
   </div>
 </div>
 <div class="col-span-2 rounded-2xl px-6 py-6" style="background: rgba(15,23,42,0.05); border: 1px solid rgba(15,23,42,0.12);">
