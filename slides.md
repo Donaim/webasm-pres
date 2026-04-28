@@ -240,9 +240,6 @@ hideInToc: true
       <div class="rounded-xl px-4 py-3" style="border: 1px solid rgba(8,145,178,0.18); background: rgba(8,145,178,0.07);">A pointer into a shared, maintained collection</div>
     </div>
   </div>
-  <div class="mt-6 rounded-2xl px-5 py-5" style="background: rgba(8,145,178,0.07); border: 1px solid rgba(8,145,178,0.18);">
-    The method moves farther because the package can be named, fetched, and rebuilt from a shared distribution system.
-  </div>
 </div>
 </div>
 <div class="absolute bottom-4 right-6 text-xs opacity-60">Debian project; GNU Guix: package collections make software distribution reproducible and declarative</div>
