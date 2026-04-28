@@ -276,7 +276,7 @@ hideInToc: true
 <div class="col-span-3">
   <div class="text-3xl leading-tight" style="max-width: 34rem;">
     The browser becomes another strange container.
-    Mosaic is the turning point.
+    The "Mosaic" Browser is the turning point.
   </div>
   <div class="pt-8 text-lg leading-snug" style="max-width: 34rem;">
     NCSA's big move was simple and enormous: pictures appeared automatically alongside text. After that, the browser keeps accumulating capabilities that make it feel more and more like a general host for software.
