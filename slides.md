@@ -301,19 +301,11 @@ hideInToc: true
     Computation runs on the user's machine.
     The server becomes optional for most interactions.
   </div>
-  <div class="pt-6 text-base leading-snug opacity-70" style="max-width: 32rem;">
-    XHR and Ajax are an optimization on top of this: they let the page reach the server without reloading.
-    The real change already happened when code started running locally at all.
-  </div>
 </div>
 <div class="grid grid-cols-1 gap-3">
   <div class="rounded-2xl px-5 py-4" style="border: 1px solid rgba(15,23,42,0.12); background: rgba(15,23,42,0.04);">
     <div class="text-xs uppercase tracking-widest opacity-60 mb-1">Form validation</div>
     <div class="text-lg">The form tells you what is wrong before one byte leaves your machine</div>
-  </div>
-  <div class="rounded-2xl px-5 py-4" style="border: 1px solid rgba(15,23,42,0.12); background: rgba(15,23,42,0.04);">
-    <div class="text-xs uppercase tracking-widest opacity-60 mb-1">Google Maps, 2005</div>
-    <div class="text-lg">The map pans and zooms smoothly &mdash; no round-trip, no new page</div>
   </div>
   <div class="rounded-2xl px-5 py-4" style="border: 1px solid rgba(15,23,42,0.12); background: rgba(15,23,42,0.04);">
     <div class="text-xs uppercase tracking-widest opacity-60 mb-1">Games</div>
