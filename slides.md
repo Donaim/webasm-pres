@@ -279,7 +279,7 @@ hideInToc: true
 <div class="grid grid-cols-5 gap-8 pt-8 items-start">
 <div class="col-span-3">
   <div class="text-3xl leading-tight" style="max-width: 34rem;">
-    Much later, the browser becomes another strange container.
+    The browser becomes another strange container.
     Mosaic is the turning point where it starts becoming a programmable software environment.
   </div>
   <div class="pt-8 text-lg leading-snug" style="max-width: 34rem;">
