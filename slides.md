@@ -53,8 +53,6 @@ hideInToc: true
 
 ---
 
-# A rule you can sing / A workflow song
-
 <div class="grid grid-cols-2 gap-6 pt-6 items-stretch">
 <div class="rounded-2xl px-6 py-6" style="border: 1px solid rgba(15,23,42,0.12); background: rgba(15,23,42,0.04);">
   <div class="text-sm uppercase tracking-widest opacity-60 mb-3">A rule you can sing</div>
