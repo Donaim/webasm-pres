@@ -93,7 +93,7 @@ hideInToc: true
 
 ---
 
-## Long before cheap, universal manuals, procedures often had to fit inside memory.
+## Long before cheap, universal manuals, procedures often had to fit inside one's head.
 
 <br>
 
