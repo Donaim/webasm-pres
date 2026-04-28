@@ -107,34 +107,6 @@ hideInToc: true
 
 ---
 
-# Smuggling the runtime
-
-<div class="grid grid-cols-2 gap-10 pt-8 items-start">
-<div>
-  <div class="rounded-3xl px-6 py-6" style="background: rgba(15,23,42,0.05); border: 1px solid rgba(15,23,42,0.12);">
-    <div class="text-sm uppercase tracking-widest opacity-60 mb-3">Silk to Byzantium</div>
-    <div class="text-xl leading-snug" style="max-width: 29rem;">
-      Silk was not just a recipe. To deploy sericulture elsewhere, the Empire needed:
-    </div>
-    <div class="mt-6 grid grid-cols-1 gap-3">
-      <div class="rounded-xl px-4 py-4" style="border: 1px solid rgba(15,23,42,0.12); background: rgba(248,250,252,0.7);">the living eggs</div>
-      <div class="rounded-xl px-4 py-4" style="border: 1px solid rgba(15,23,42,0.12); background: rgba(248,250,252,0.7);">the mulberry-based feeding context</div>
-      <div class="rounded-xl px-4 py-4" style="border: 1px solid rgba(15,23,42,0.12); background: rgba(248,250,252,0.7);">the know-how to keep the system alive</div>
-    </div>
-  </div>
-</div>
-<div>
-  <div class="text-4xl leading-tight" style="max-width: 28rem; color: rgb(8,145,178);">
-    The runtime had to be smuggled.
-  </div>
-  <div class="pt-8 text-lg leading-snug" style="max-width: 32rem;">
-    Eggs, warmth, mulberry leaves, and know-how all had to travel together.
-  </div>
-</div>
-</div>
-
----
-
 # Shipping a live process
 
 <div class="grid grid-cols-2 gap-10 pt-8 items-start">
