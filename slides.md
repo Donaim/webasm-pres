@@ -94,19 +94,16 @@ hideInToc: true
 
 ---
 
-<div class="pt-14">
-  <div class="rounded-3xl px-8 py-8" style="background: #111827; color: #f8fafc; border: 1px solid rgba(255,255,255,0.08); max-width: 52rem;">
-    <div class="text-4xl leading-tight" style="max-width: 45rem;">
-      Long before cheap, universal manuals, procedures often had to fit inside memory.
-    </div>
-    <div class="pt-8 text-2xl leading-snug" style="max-width: 42rem; color: rgba(248,250,252,0.88);">
-      Rhythm, rhyme, and repeated performance made them portable.
-    </div>
-  </div>
-  <div class="pt-8 text-xl leading-snug" style="max-width: 42rem;">
-    Verse is compression: portable, replayable, and memory-efficient.
-  </div>
-</div>
+## Long before cheap, universal manuals, procedures often had to fit inside memory.
+
+<br>
+
+## Rhythm, rhyme, and repeated performance made them portable.
+
+<br>
+
+## Verse is compression: portable, replayable, and memory-efficient.
+
 <div class="absolute bottom-4 right-6 text-xs opacity-60">OUP: instructional verse and medical verse were long used for memorability and portability</div>
 
 ---
