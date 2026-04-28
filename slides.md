@@ -13,16 +13,12 @@ hideInToc: true
 ---
 
 <div class="pt-14">
-  <div class="uppercase tracking-widest text-sm opacity-60">Software packaging</div>
   <h1 style="font-size: 3em; line-height: 1.02; margin-top: 0.45rem; max-width: 42rem;">
     Packaging Methods
   </h1>
   <p style="font-size: 1.3em; max-width: 41rem; margin-top: 1.3rem; line-height: 1.35;">
     A history of how procedures get packaged and deployed — from verse to WebAssembly.
   </p>
-</div>
-<div class="mt-12 rounded-2xl px-6 py-6" style="background: rgba(8,145,178,0.07); border: 1px solid rgba(8,145,178,0.18); max-width: 48rem;">
-The same deployment problem keeps appearing: a method needs to move from here to there.
 </div>
 <div class="absolute bottom-8 left-0 right-0 grid grid-cols-6 gap-4 text-center text-sm opacity-75">
   <div>People</div>
