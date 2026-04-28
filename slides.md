@@ -455,10 +455,18 @@ https://cfe-lab.github.io/CFEIntact/app/
 # What should we package this way next?
 
 <div class="grid grid-cols-2 gap-4 pt-8 text-center">
-  <div class="rounded-2xl px-5 py-6" style="border: 1px solid rgba(15,23,42,0.12);">FASTQ or coverage viewer that opens local files directly</div>
-  <div class="rounded-2xl px-5 py-6" style="border: 1px solid rgba(15,23,42,0.12);">Resistance review tool that stays on the analyst's machine</div>
-  <div class="rounded-2xl px-5 py-6" style="border: 1px solid rgba(15,23,42,0.12);">Run-validation or sample-sheet checker distributed by URL</div>
-  <div class="rounded-2xl px-5 py-6" style="border: 1px solid rgba(15,23,42,0.12);">Primer-mismatch, contamination, or mutation explorer with local compute</div>
+  <div class="rounded-2xl px-5 py-6" style="border: 1px solid rgba(15,23,42,0.12);">
+    FASTQ or coverage viewer that opens local files directly
+  </div>
+  <div class="rounded-2xl px-5 py-6" style="border: 1px solid rgba(15,23,42,0.12);">
+    Resistance review tool that stays on the analyst's machine
+  </div>
+  <div class="rounded-2xl px-5 py-6" style="border: 1px solid rgba(15,23,42,0.12);">
+    Run-validation or sample-sheet checker distributed by URL
+  </div>
+  <div class="rounded-2xl px-5 py-6" style="border: 1px solid rgba(15,23,42,0.12);">
+    Primer-mismatch, contamination, or mutation explorer with local compute
+  </div>
 </div>
 <div class="mt-8 rounded-2xl px-6 py-5" style="background: rgba(8,145,178,0.07); border: 1px solid rgba(8,145,178,0.18); max-width: 48rem;">
 These are good candidates when installation hurts more than the algorithm, and when server centralization buys less than local privacy and easy distribution.
