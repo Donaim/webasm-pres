@@ -289,15 +289,13 @@ Objection, and a real one: executable code arriving through what had been a pass
 <div class="grid grid-cols-2 gap-10 pt-8 items-start">
 <div>
   <div class="text-xl leading-snug mb-6">Built for reading documents, the browser slowly gained abilities that made it feel more like a desktop operating system:</div>
-  <div class="grid grid-cols-1 gap-3">
-  <div class="rounded-xl px-4 py-3" style="border: 1px solid rgba(15,23,42,0.12); background: rgba(15,23,42,0.04);">
-    Draw graphics and animations <br>
-    Remember data between visits, without a server <br>
-    Keep working in the background <br>
-    Survive a lost connection <br>
-    Open files from your machine, use the camera, read your location <br>
-  </div>
-  </div>
+  <ul class="list-disc text-lg leading-snug pt-8" style="padding-left: 1.2rem; max-width: 22rem;">
+    <li> Draw graphics and animations </li>
+    <li> Remember data between visits, without a server </li>
+    <li> Keep working in the background </li>
+    <li> Survive a lost connection </li>
+    <li> Open files from your machine, use the camera, read your location </li>
+  </ul>
 </div>
 <div>
   <div class="text-xl leading-snug mb-6">All along, people wanted to run real software in it. Flash was the most successful attempt — but it required a separate plug-in, and it eventually died.</div>
