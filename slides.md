@@ -96,85 +96,71 @@ hideInToc: true
 
 # Shipping a live process
 
-<div class="grid grid-cols-2 gap-10 pt-8 items-start">
+<div class="grid grid-cols-2 gap-10 pt-6 items-start">
 <div>
-  <div class="rounded-3xl px-6 py-6" style="background: rgba(15,23,42,0.05); border: 1px solid rgba(15,23,42,0.12);">
-    <div class="text-sm uppercase tracking-widest opacity-60 mb-3">1803</div>
-    <div class="grid grid-cols-7 gap-2 text-center text-sm items-center">
-      <div class="rounded-xl px-2 py-4" style="border: 1px solid rgba(15,23,42,0.12); background: rgba(248,250,252,0.7);">child A</div>
-      <div class="opacity-50">-&gt;</div>
-      <div class="rounded-xl px-2 py-4" style="border: 1px solid rgba(15,23,42,0.12); background: rgba(248,250,252,0.7);">child B</div>
-      <div class="opacity-50">-&gt;</div>
-      <div class="rounded-xl px-2 py-4" style="border: 1px solid rgba(15,23,42,0.12); background: rgba(248,250,252,0.7);">child C</div>
-      <div class="opacity-50">-&gt;</div>
-      <div class="rounded-xl px-2 py-4" style="border: 1px solid rgba(15,23,42,0.12); background: rgba(248,250,252,0.7);">child D</div>
-    </div>
-    <div class="mt-6 grid grid-cols-2 gap-3 text-center text-sm">
-      <div class="rounded-xl px-4 py-4" style="border: 1px solid rgba(15,23,42,0.12); background: rgba(248,250,252,0.7);">22 children</div>
-      <div class="rounded-xl px-4 py-4" style="border: 1px solid rgba(15,23,42,0.12); background: rgba(248,250,252,0.7);">arm-to-arm transfer</div>
-      <div class="rounded-xl px-4 py-4" style="border: 1px solid rgba(15,23,42,0.12); background: rgba(248,250,252,0.7);">live vaccine</div>
-      <div class="rounded-xl px-4 py-4" style="border: 1px solid rgba(15,23,42,0.12); background: rgba(248,250,252,0.7);">book + local institutions</div>
-    </div>
-  </div>
+  <img src="/assets/balmis.png" alt="Painting of the Balmis expedition" class="rounded-2xl w-full" style="max-height: 18rem; object-fit: cover; object-position: center top;">
 </div>
 <div>
   <div class="text-4xl leading-tight" style="max-width: 30rem; color: rgb(153,27,27);">
     Transporting a viable instance of the procedure was the hard part.
   </div>
-  <div class="pt-8 text-lg leading-snug" style="max-width: 33rem;">
-    The Balmis expedition carried the vaccine as a running biological chain. Documentation and local setup traveled alongside the live material.
+  <div class="pt-6 text-lg leading-snug" style="max-width: 33rem;">
+    In 1803 the Balmis expedition carried the smallpox vaccine across the Atlantic as a running biological chain: 22 children, each inoculated arm-to-arm in turn. Documentation and local institutions traveled alongside the live material.
   </div>
 </div>
 </div>
-<div class="absolute bottom-4 right-6 text-xs opacity-60">Balmis expedition accounts describe arm-to-arm transport across the ocean; PMC describes inoculation from fresh lesion material and the later pustule stage</div>
+<div class="absolute bottom-4 right-6 text-xs opacity-60">Balmis expedition 1803 &mdash; arm-to-arm chain kept the vaccine alive across the ocean</div>
 
 ---
 
 # From woven patterns to algebraical patterns
 
-<div class="grid grid-cols-2 gap-10 pt-8 items-start">
+<div class="grid grid-cols-2 gap-10 pt-6 items-start">
 <div>
-  <div class="text-3xl leading-tight" style="max-width: 33rem;">
-    Jacquard cards made a pattern detachable from the loom: stored, copied, transported, and replayed by a machine.
-  </div>
-  <div class="pt-8 text-lg leading-snug" style="max-width: 34rem;">
-    Babbage borrowed that punched-card logic for the Analytical Engine. Lovelace saw the deeper shift: the same mechanism could control symbolic operations, not only textile patterns.
+  <img src="/assets/jacquard-loom.jpg" alt="Jacquard loom engraving, 1801" class="rounded-2xl w-full" style="max-height: 26rem; object-fit: cover; object-position: center;">
+  <div class="mt-3 grid grid-cols-2 gap-3 items-start">
+    <img src="/assets/jacquard-cards.jpg" alt="Jacquard punched cards, c. 1890" class="rounded-xl w-full" style="max-height: 9rem; object-fit: cover;">
+    <div class="text-sm leading-snug opacity-70 pt-1">Each card encodes one row of the pattern. Stack the cards, replay the sequence &mdash; same cloth, anywhere.</div>
   </div>
 </div>
 <div>
-  <div class="grid grid-cols-4 gap-2 text-center text-sm font-bold">
-    <div class="rounded-xl px-2 py-5" style="border: 1px solid rgba(15,23,42,0.12);">card</div>
-    <div class="rounded-xl px-2 py-5" style="border: 1px solid rgba(15,23,42,0.12);">card</div>
-    <div class="rounded-xl px-2 py-5" style="border: 1px solid rgba(15,23,42,0.12);">card</div>
-    <div class="rounded-xl px-2 py-5" style="border: 1px solid rgba(15,23,42,0.12);">card</div>
+  <div class="text-2xl leading-tight" style="max-width: 33rem;">
+    Jacquard cards made a pattern detachable from the loom: stored, copied, transported, and replayed by a machine.
+  </div>
+  <div class="pt-6 text-lg leading-snug" style="max-width: 34rem;">
+    Babbage borrowed that punched-card logic for the Analytical Engine. Lovelace saw the deeper shift: the same mechanism could control symbolic operations, not only textile patterns.
   </div>
   <div class="mt-6 rounded-2xl px-5 py-5" style="background: rgba(8,145,178,0.07); border: 1px solid rgba(8,145,178,0.18);">
     The punched card began as a way to make a procedure detachable from the craft that first embodied it.
   </div>
-  <div class="pt-6 text-xl italic leading-snug" style="border-left: 3px solid rgba(8,145,178,0.4); padding-left: 1rem; max-width: 33rem;">
-    "The Analytical Engine weaves algebraical patterns just as the Jacquard-loom weaves flowers and leaves."
+  <div class="pt-5 text-xl italic leading-snug" style="border-left: 3px solid rgba(8,145,178,0.4); padding-left: 1rem; max-width: 33rem;">
+    &ldquo;The Analytical Engine weaves algebraical patterns just as the Jacquard-loom weaves flowers and leaves.&rdquo;
   </div>
 </div>
 </div>
-<div class="absolute bottom-4 right-6 left-10 text-xs opacity-60">CHM: punched-card control begins in Jacquard textile machinery; Lovelace 1843: the Analytical Engine &ldquo;weaves algebraical patterns just as the Jacquard-loom weaves flowers and leaves&rdquo;</div>
+<div class="absolute bottom-4 right-6 left-10 text-xs opacity-60">Jacquard loom engraving 1801; punched cards Science Museum Group Collection c.&nbsp;1890; Lovelace 1843</div>
 
 ---
 
 # Magazines were once app stores
 
-<div class="grid grid-cols-2 gap-10 pt-8 items-start">
+<div class="grid grid-cols-2 gap-10 pt-6 items-start">
+<div>
+  <img src="/assets/magazine-listing.jpg" alt="Amstrad CPC magazine code listing" class="rounded-2xl w-full" style="max-height: 26rem; object-fit: cover; object-position: top;">
+  <div class="text-sm opacity-60 mt-2">An Amstrad CPC listing from <em>Amstrad Computer User</em>, January 1992. Type it in, save to cassette.</div>
+</div>
 <div>
   <div class="text-3xl leading-tight" style="max-width: 32rem;">
     Home-computer users got software by reading it off paper and typing it in.
   </div>
-  <div class="pt-8 text-lg leading-snug" style="max-width: 33rem;">
+  <div class="pt-6 text-lg leading-snug" style="max-width: 33rem;">
     A magazine listing could be the distribution channel. The workaround was human re-entry: line by line, keyword by keyword, then save to cassette and hope the save worked.
   </div>
-</div>
-<div class="grid grid-cols-1 gap-4 text-center">
-  <div class="rounded-2xl px-5 py-5" style="border: 1px solid rgba(15,23,42,0.12); background: rgba(15,23,42,0.04);">Artifact: the printed listing</div>
-  <div class="rounded-2xl px-5 py-5" style="border: 1px solid rgba(15,23,42,0.12); background: rgba(15,23,42,0.04);">Shortcut tools to speed up typing it all in</div>
-  <div class="rounded-2xl px-5 py-5" style="border: 1px solid rgba(15,23,42,0.12); background: rgba(153,27,27,0.06);">Failure mode: cassette save errors as minor tragedy</div>
+  <div class="mt-6 grid grid-cols-1 gap-3">
+    <div class="rounded-2xl px-5 py-4" style="border: 1px solid rgba(15,23,42,0.12); background: rgba(15,23,42,0.04);">The printed listing was the artifact</div>
+    <div class="rounded-2xl px-5 py-4" style="border: 1px solid rgba(15,23,42,0.12); background: rgba(15,23,42,0.04);">Shortcut tools helped speed up typing</div>
+    <div class="rounded-2xl px-5 py-4" style="border: 1px solid rgba(153,27,27,0.12); background: rgba(153,27,27,0.04);">Cassette save errors were minor tragedy</div>
+  </div>
 </div>
 </div>
 
@@ -231,18 +217,28 @@ hideInToc: true
 
 # 1993: the browser stops being plain text
 
-<div class="grid grid-cols-5 gap-8 pt-8 items-start">
-<div class="col-span-3">
+<div class="grid grid-cols-2 gap-10 pt-6 items-start">
+<div>
+  <div class="text-sm uppercase tracking-widest opacity-60 mb-3">The web before Mosaic</div>
+  <a href="https://info.cern.ch/hypertext/WWW/TheProject.html" target="_blank">
+    <img src="/assets/first-website.png" alt="First website at CERN, still live at info.cern.ch" class="rounded-2xl w-full" style="border: 1px solid rgba(15,23,42,0.14);">
+  </a>
+  <div class="text-sm opacity-60 mt-2">The first website, still live at <code>info.cern.ch</code> &mdash; plain text and hyperlinks, nothing else.</div>
+</div>
+<div>
   <div class="text-3xl leading-tight" style="max-width: 34rem;">
-    The browser becomes another strange container.
-    The "Mosaic" Browser is the turning point.
+    Mosaic is the turning point where the browser starts becoming a software platform.
   </div>
-  <div class="pt-8 text-lg leading-snug" style="max-width: 34rem;">
-    NCSA's big move was simple and enormous: pictures appeared automatically alongside text. After that, the browser keeps accumulating capabilities that make it feel more and more like a multimedia system.
+  <div class="pt-6 text-lg leading-snug" style="max-width: 34rem;">
+    NCSA&rsquo;s big move was simple and enormous: pictures appeared automatically alongside text. After that, the browser keeps accumulating capabilities that make it feel more and more like a general host for software.
+  </div>
+  <div class="mt-6 rounded-2xl px-5 py-5" style="background: rgba(15,23,42,0.05); border: 1px solid rgba(15,23,42,0.12);">
+    <div class="text-sm uppercase tracking-widest opacity-60 mb-2">The shift</div>
+    The browser stops being a page of linked text and starts becoming a software delivery mechanism.
   </div>
 </div>
 </div>
-<div class="absolute bottom-4 right-6 text-xs opacity-60">NCSA Mosaic: first published browser to automatically display pictures with text</div>
+<div class="absolute bottom-4 right-6 text-xs opacity-60">NCSA Mosaic 1993: first browser to display images inline with text</div>
 
 ---
 
@@ -286,24 +282,27 @@ Objection, and a real one: executable code arriving through what had been a pass
 
 # The browser grows into a platform
 
-<div class="grid grid-cols-2 gap-10 pt-8 items-start">
-<div>
-  <div class="text-xl leading-snug mb-6">Built for reading documents, the browser slowly gained abilities that made it feel more like a desktop operating system:</div>
-  <ul class="list-disc text-lg leading-snug pt-8" style="padding-left: 1.2rem; max-width: 22rem;">
-    <li> Draw graphics and animations </li>
-    <li> Remember data between visits, without a server </li>
-    <li> Keep working in the background </li>
-    <li> Survive a lost connection </li>
-    <li> Open files from your machine, use the camera, read your location </li>
-  </ul>
+<div class="pt-6">
+<div class="text-xl opacity-70 mb-8">Built for reading documents, the browser slowly became something much more powerful:</div>
+<div class="flex items-center gap-2 flex-wrap mb-10">
+  <div class="rounded-2xl px-5 py-4 text-center text-lg" style="border: 1px solid rgba(15,23,42,0.2); background: rgba(15,23,42,0.04); min-width: 9rem;">Document reader</div>
+  <div class="text-2xl opacity-40">&rarr;</div>
+  <div class="rounded-2xl px-5 py-4 text-center text-lg" style="border: 1px solid rgba(15,23,42,0.2); background: rgba(15,23,42,0.04); min-width: 9rem;">Interactive page</div>
+  <div class="text-2xl opacity-40">&rarr;</div>
+  <div class="rounded-2xl px-5 py-4 text-center text-lg" style="border: 1px solid rgba(15,23,42,0.2); background: rgba(15,23,42,0.04); min-width: 9rem;">Graphics &amp; storage</div>
+  <div class="text-2xl opacity-40">&rarr;</div>
+  <div class="rounded-2xl px-5 py-4 text-center text-lg" style="border: 1px solid rgba(15,23,42,0.2); background: rgba(15,23,42,0.04); min-width: 9rem;">Offline &amp; local files</div>
+  <div class="text-2xl opacity-40">&rarr;</div>
+  <div class="rounded-2xl px-5 py-4 text-center text-lg font-semibold" style="border: 1px solid rgba(8,145,178,0.35); background: rgba(8,145,178,0.1); min-width: 9rem;">Serious software platform</div>
 </div>
-<div>
-  <div class="text-xl leading-snug mb-6">All along, people wanted to run real software in it. Flash was the most successful attempt — but it required a separate plug-in, and it eventually died.</div>
-  <div class="rounded-2xl px-5 py-5" style="border: 1px solid rgba(153,27,27,0.12); background: rgba(153,27,27,0.04);">
-    Every plug-in approach had the same problem: users had to install something extra, browsers had to support it, and each one eventually got abandoned.
+<div class="grid grid-cols-2 gap-6">
+  <div class="rounded-2xl px-5 py-5" style="border: 1px solid rgba(153,27,27,0.2); background: rgba(153,27,27,0.04);">
+    <div class="text-sm uppercase tracking-widest opacity-60 mb-2">Plugin detour (1990s&ndash;2010s)</div>
+    <div class="text-base leading-snug opacity-80">Flash, Java applets, and similar plug-ins tried to fill the gap &mdash; and worked for a while. But each required a separate install, and each was eventually abandoned.</div>
   </div>
-  <div class="mt-5 rounded-2xl px-5 py-5" style="border: 1px solid rgba(8,145,178,0.18); background: rgba(8,145,178,0.07);">
-    The desire was always there. A built-in solution wasn&rsquo;t &mdash; until WebAssembly.
+  <div class="rounded-2xl px-5 py-5" style="border: 1px solid rgba(8,145,178,0.18); background: rgba(8,145,178,0.07);">
+    <div class="text-sm uppercase tracking-widest opacity-60 mb-2">The built-in path</div>
+    <div class="text-base leading-snug">The browser kept getting more capable on its own. Today it can run serious software without any plug-in &mdash; if the code can reach it.</div>
   </div>
 </div>
 </div>
@@ -313,28 +312,27 @@ Objection, and a real one: executable code arriving through what had been a pass
 
 # What WebAssembly finally changes
 
-<div class="grid grid-cols-2 gap-10 pt-8 items-start">
-<div>
-  <div class="text-sm uppercase tracking-widest opacity-60 mb-3">Already true</div>
-  <ul class="list-disc text-lg leading-snug" style="padding-left: 1.2rem; max-width: 31rem;">
-    <li>The browser already has UI, networking, graphics, storage, and background execution</li>
-    <li>Biology already has serious browser software</li>
-    <li>Sharing a URL is already the easiest way to give someone a tool</li>
-  </ul>
+<div class="pt-6 text-3xl leading-tight font-semibold" style="max-width: 46rem;">
+  A link can now deliver serious software without making people install it.
 </div>
-<div>
-  <div class="text-sm uppercase tracking-widest opacity-60 mb-3">New with Wasm</div>
-  <ul class="list-disc text-lg leading-snug" style="padding-left: 1.2rem; max-width: 31rem;">
-    <li>More of our existing analysis code can run in the browser without a full rewrite</li>
-    <li>Fewer tools need a server just to avoid installation pain</li>
-    <li>Fewer teams need to rebuild their tool from scratch just to offer a browser version</li>
-  </ul>
+<div class="grid grid-cols-3 gap-5 pt-8">
+<div class="rounded-2xl px-5 py-6" style="border: 1px solid rgba(15,23,42,0.12); background: rgba(15,23,42,0.04);">
+  <div class="text-sm uppercase tracking-widest opacity-60 mb-3">Open a link, not an installer</div>
+  <div class="text-lg leading-snug">The user gets the current version immediately.</div>
+</div>
+<div class="rounded-2xl px-5 py-6" style="border: 1px solid rgba(15,23,42,0.12); background: rgba(15,23,42,0.04);">
+  <div class="text-sm uppercase tracking-widest opacity-60 mb-3">Run locally when privacy matters</div>
+  <div class="text-lg leading-snug">Files can stay on the user&rsquo;s machine.</div>
+</div>
+<div class="rounded-2xl px-5 py-6" style="border: 1px solid rgba(15,23,42,0.12); background: rgba(15,23,42,0.04);">
+  <div class="text-sm uppercase tracking-widest opacity-60 mb-3">Bring existing tools to the browser</div>
+  <div class="text-lg leading-snug">More proven analysis code can travel to the web without being rewritten from scratch.</div>
 </div>
 </div>
-<div class="mt-10 rounded-2xl px-6 py-5" style="background: rgba(8,145,178,0.07); border: 1px solid rgba(8,145,178,0.18); max-width: 49rem;">
-The browser is now capable enough to host serious software. WebAssembly is what lets existing code &mdash; written in any language &mdash; travel inside a URL without a full rewrite.
+<div class="mt-8 rounded-2xl px-6 py-5" style="background: rgba(8,145,178,0.07); border: 1px solid rgba(8,145,178,0.18); max-width: 52rem;">
+  WebAssembly helps the browser become a delivery box for real tools: easy to share, safer to run, and still local when the data should stay local.
 </div>
-<div class="absolute bottom-4 right-6 text-xs opacity-60">MDN: Wasm complements JavaScript and lets code from multiple languages run in modern browsers</div>
+<div class="absolute bottom-4 right-6 text-xs opacity-60">MDN: Wasm lets code from many languages run in modern browsers without a plug-in</div>
 
 ---
 
