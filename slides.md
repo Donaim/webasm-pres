@@ -332,6 +332,23 @@ Objection, and a real one: executable code arriving through what had been a pass
 <div class="absolute bottom-4 right-6 text-xs opacity-60">MDN: Wasm lets code from many languages run in modern browsers without a plug-in</div>
 
 ---
+layout: iframe-right
+url: https://cfe-lab.github.io/CFEIntact/app/
+---
+
+# CFEIntact, as the tool itself
+
+<ul class="list-disc text-lg leading-snug pt-8" style="padding-left: 1.2rem; max-width: 22rem;">
+<li>Reached by URL</li>
+<li>Real lab-relevant biology task</li>
+<li>Runs on the user&rsquo;s own machine</li>
+<li>Sensitive files stay user-side</li>
+</ul>
+<div class="mt-6 text-sm opacity-60" style="word-break: break-all;">
+https://cfe-lab.github.io/CFEIntact/app/
+</div>
+
+---
 
 # ReCall, QAI, and the new packaging option
 
@@ -354,23 +371,6 @@ Objection, and a real one: executable code arriving through what had been a pass
 </div>
 <div class="pt-8 text-xl" style="max-width: 47rem;">
 That third box matters when distribution is painful, confidentiality matters, and the tool behaves more like an instrument than a shared workflow hub.
-</div>
-
----
-layout: iframe-right
-url: https://cfe-lab.github.io/CFEIntact/app/
----
-
-# CFEIntact, as the tool itself
-
-<ul class="list-disc text-lg leading-snug pt-8" style="padding-left: 1.2rem; max-width: 22rem;">
-<li>Reached by URL</li>
-<li>Real lab-relevant biology task</li>
-<li>Runs on the user&rsquo;s own machine</li>
-<li>Sensitive files stay user-side</li>
-</ul>
-<div class="mt-6 text-sm opacity-60" style="word-break: break-all;">
-https://cfe-lab.github.io/CFEIntact/app/
 </div>
 
 ---
