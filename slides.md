@@ -155,9 +155,9 @@ hideInToc: true
     A magazine listing could be the distribution channel. The workaround was human re-entry: line by line, keyword by keyword, then save to cassette and hope the save worked.
   </div>
   <ul class="mt-6 grid grid-cols-1 gap-3">
-    <li class="rounded-2xl" style="background: rgba(15,23,42,0.04);">The printed listing was the artifact</li>
-    <li class="rounded-2xl" style="background: rgba(15,23,42,0.04);">Shortcut tools helped speed up typing</li>
-    <li class="rounded-2xl" style="background: rgba(153,27,27,0.04);">Cassette save errors were minor tragedy</li>
+    <li class="rounded-2xl">The printed listing was the artifact</li>
+    <li class="rounded-2xl">Shortcut tools helped speed up typing</li>
+    <li class="rounded-2xl">Cassette save errors were minor tragedy</li>
   </ul>
 </div>
 </div>
