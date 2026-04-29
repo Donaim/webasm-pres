@@ -126,6 +126,7 @@ hideInToc: true
   <div class="mt-6 rounded-2xl px-5 py-5" style="background: rgba(8,145,178,0.07); border: 1px solid rgba(8,145,178,0.18);">
     The punched card began as a way to make a procedure detachable from the craft that first embodied it.
   </div>
+  <br>
   <div class="pt-5 text-xl italic leading-snug" style="border-left: 3px solid rgba(8,145,178,0.4); padding-left: 1rem; max-width: 33rem;">
     &ldquo;The Analytical Engine weaves algebraical patterns just as the Jacquard-loom weaves flowers and leaves.&rdquo;
   </div>
