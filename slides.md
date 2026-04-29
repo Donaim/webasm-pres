@@ -120,9 +120,6 @@ hideInToc: true
   <img src="/assets/jacquard-loom.jpg" alt="Jacquard loom engraving, 1801" class="rounded-2xl w-full" style="max-height: 26rem; object-fit: cover; object-position: center;">
 </div>
 <div>
-  <div class="text-2xl leading-tight" style="max-width: 33rem;">
-    Jacquard cards made a pattern detachable from the loom: stored, copied, transported, and replayed by a machine.
-  </div>
   <div class="pt-6 text-lg leading-snug" style="max-width: 34rem;">
     Babbage borrowed that punched-card logic for the Analytical Engine. Lovelace saw the deeper shift: the same mechanism could control symbolic operations, not only textile patterns.
   </div>
@@ -134,6 +131,12 @@ hideInToc: true
   </div>
 </div>
 </div>
+
+<!--
+
+  Jacquard cards made a pattern detachable from the loom: stored, copied, transported, and replayed by a machine.
+
+-->
 
 ---
 
