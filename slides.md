@@ -72,7 +72,7 @@ hideInToc: true
     Cast on &thorn;ese o&thorn;er thynges everychon;
   </div>
   <div class="text-sm opacity-70 mt-3">
-    A recipe <em>For to make a compost</em>: a chicken-and-herb stew.
+    A recipe <em>For to make a compost</em> (a chicken-and-herb stew)
   </div>
 </div>
 <div>
