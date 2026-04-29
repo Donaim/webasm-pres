@@ -154,11 +154,11 @@ hideInToc: true
   <div class="pt-6 text-lg leading-snug" style="max-width: 33rem;">
     A magazine listing could be the distribution channel. The workaround was human re-entry: line by line, keyword by keyword, then save to cassette and hope the save worked.
   </div>
-  <div class="mt-6 grid grid-cols-1 gap-3">
-    <div class="rounded-2xl px-5 py-4" style="border: 1px solid rgba(15,23,42,0.12); background: rgba(15,23,42,0.04);">The printed listing was the artifact</div>
-    <div class="rounded-2xl px-5 py-4" style="border: 1px solid rgba(15,23,42,0.12); background: rgba(15,23,42,0.04);">Shortcut tools helped speed up typing</div>
-    <div class="rounded-2xl px-5 py-4" style="border: 1px solid rgba(153,27,27,0.12); background: rgba(153,27,27,0.04);">Cassette save errors were minor tragedy</div>
-  </div>
+  <ul class="mt-6 grid grid-cols-1 gap-3">
+    <li class="rounded-2xl" style="background: rgba(15,23,42,0.04);">The printed listing was the artifact</li>
+    <li class="rounded-2xl" style="background: rgba(15,23,42,0.04);">Shortcut tools helped speed up typing</li>
+    <li class="rounded-2xl" style="background: rgba(153,27,27,0.04);">Cassette save errors were minor tragedy</li>
+  </ul>
 </div>
 </div>
 
