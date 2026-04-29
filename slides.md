@@ -76,13 +76,11 @@ hideInToc: true
   </div>
 </div>
 <div>
-  <div class="text-sm uppercase tracking-widest opacity-60 mb-4">Why this belongs in this talk</div>
   <div class="text-2xl leading-snug mb-5">A recipe is a <strong>portable procedure</strong>.</div>
   <div class="grid grid-cols-1 gap-2 text-base">
     <div class="rounded-xl px-4 py-3" style="border: 1px solid rgba(15,23,42,0.12);">inputs &rarr; ingredients</div>
     <div class="rounded-xl px-4 py-3" style="border: 1px solid rgba(15,23,42,0.12);">operations &rarr; chop, layer, boil, season</div>
     <div class="rounded-xl px-4 py-3" style="border: 1px solid rgba(15,23,42,0.12);">runtime &rarr; kitchen, tools, heat, vessel</div>
-    <div class="rounded-xl px-4 py-3" style="border: 1px solid rgba(15,23,42,0.12);">hidden dependencies &rarr; the cook&rsquo;s tacit knowledge</div>
     <div class="rounded-xl px-4 py-3" style="border: 1px solid rgba(8,145,178,0.18); background: rgba(8,145,178,0.07);">output &rarr; a reproducible dish</div>
   </div>
   <div class="mt-5 text-lg leading-snug font-medium" style="max-width: 26rem;">
