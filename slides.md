@@ -290,11 +290,12 @@ Objection, and a real one: executable code arriving through what had been a pass
 <div>
   <div class="text-xl leading-snug mb-6">Built for reading documents, the browser slowly gained abilities that made it feel more like a desktop operating system:</div>
   <div class="grid grid-cols-1 gap-3">
-    <div class="rounded-xl px-4 py-3" style="border: 1px solid rgba(15,23,42,0.12); background: rgba(15,23,42,0.04);">Draw graphics and animations</div>
-    <div class="rounded-xl px-4 py-3" style="border: 1px solid rgba(15,23,42,0.12); background: rgba(15,23,42,0.04);">Remember data between visits, without a server</div>
-    <div class="rounded-xl px-4 py-3" style="border: 1px solid rgba(15,23,42,0.12); background: rgba(15,23,42,0.04);">Keep working in the background</div>
-    <div class="rounded-xl px-4 py-3" style="border: 1px solid rgba(15,23,42,0.12); background: rgba(15,23,42,0.04);">Survive a lost connection</div>
-    <div class="rounded-xl px-4 py-3" style="border: 1px solid rgba(15,23,42,0.12); background: rgba(15,23,42,0.04);">Open files from your machine, use the camera, read your location</div>
+  <div class="rounded-xl px-4 py-3" style="border: 1px solid rgba(15,23,42,0.12); background: rgba(15,23,42,0.04);">
+    Draw graphics and animations <br>
+    Remember data between visits, without a server <br>
+    Keep working in the background <br>
+    Survive a lost connection <br>
+    Open files from your machine, use the camera, read your location <br>
   </div>
 </div>
 <div>
