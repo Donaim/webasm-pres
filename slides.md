@@ -238,6 +238,36 @@ hideInToc: true
 
 ---
 
+# The browser grows into a platform
+
+<div class="pt-6">
+<div class="text-xl opacity-70 mb-8">Built for reading documents, the browser slowly became something much more powerful:</div>
+<div class="flex items-center gap-2 flex-wrap mb-10">
+  <div class="rounded-2xl px-5 py-4 text-center text-lg" style="border: 1px solid rgba(15,23,42,0.2); background: rgba(15,23,42,0.04); min-width: 9rem;">Document reader</div>
+  <div class="text-2xl opacity-40">&rarr;</div>
+  <div class="rounded-2xl px-5 py-4 text-center text-lg" style="border: 1px solid rgba(15,23,42,0.2); background: rgba(15,23,42,0.04); min-width: 9rem;">Interactive page</div>
+  <div class="text-2xl opacity-40">&rarr;</div>
+  <div class="rounded-2xl px-5 py-4 text-center text-lg" style="border: 1px solid rgba(15,23,42,0.2); background: rgba(15,23,42,0.04); min-width: 9rem;">Graphics &amp; storage</div>
+  <div class="text-2xl opacity-40">&rarr;</div>
+  <div class="rounded-2xl px-5 py-4 text-center text-lg" style="border: 1px solid rgba(15,23,42,0.2); background: rgba(15,23,42,0.04); min-width: 9rem;">Offline &amp; local files</div>
+  <div class="text-2xl opacity-40">&rarr;</div>
+  <div class="rounded-2xl px-5 py-4 text-center text-lg font-semibold" style="border: 1px solid rgba(8,145,178,0.35); background: rgba(8,145,178,0.1); min-width: 9rem;">Serious software platform</div>
+</div>
+<div class="grid grid-cols-2 gap-6">
+  <div class="rounded-2xl px-5 py-5" style="border: 1px solid rgba(153,27,27,0.2); background: rgba(153,27,27,0.04);">
+    <div class="text-sm uppercase tracking-widest opacity-60 mb-2">Plugin detour (1990s&ndash;2010s)</div>
+    <div class="text-base leading-snug opacity-80">Flash, Java applets, and similar plug-ins tried to fill the gap &mdash; and worked for a while. But each required a separate install, and each was eventually abandoned.</div>
+  </div>
+  <div class="rounded-2xl px-5 py-5" style="border: 1px solid rgba(8,145,178,0.18); background: rgba(8,145,178,0.07);">
+    <div class="text-sm uppercase tracking-widest opacity-60 mb-2">The built-in path</div>
+    <div class="text-base leading-snug">The browser kept getting more capable on its own. Today it can run serious software without any plug-in &mdash; if the code can reach it.</div>
+  </div>
+</div>
+</div>
+<div class="absolute bottom-4 right-6 text-xs opacity-60">Flash retired 2020; Java plug-in removed from major browsers by 2017</div>
+
+---
+
 # The browser starts running code
 
 <div class="grid grid-cols-2 gap-10 pt-8 items-start">
@@ -274,36 +304,6 @@ hideInToc: true
 <!--
 Objection, and a real one: executable code arriving through what had been a passive viewer is a fundamentally different security risk. System administrators immediately pushed back. The browser had no sandbox when JavaScript shipped — the same-origin policy was added afterward as a patch under pressure. Java applets and Flash drew the same criticism louder. Every new browser capability since has had to answer the same question first: who controls what the code is allowed to do?
 -->
-
----
-
-# The browser grows into a platform
-
-<div class="pt-6">
-<div class="text-xl opacity-70 mb-8">Built for reading documents, the browser slowly became something much more powerful:</div>
-<div class="flex items-center gap-2 flex-wrap mb-10">
-  <div class="rounded-2xl px-5 py-4 text-center text-lg" style="border: 1px solid rgba(15,23,42,0.2); background: rgba(15,23,42,0.04); min-width: 9rem;">Document reader</div>
-  <div class="text-2xl opacity-40">&rarr;</div>
-  <div class="rounded-2xl px-5 py-4 text-center text-lg" style="border: 1px solid rgba(15,23,42,0.2); background: rgba(15,23,42,0.04); min-width: 9rem;">Interactive page</div>
-  <div class="text-2xl opacity-40">&rarr;</div>
-  <div class="rounded-2xl px-5 py-4 text-center text-lg" style="border: 1px solid rgba(15,23,42,0.2); background: rgba(15,23,42,0.04); min-width: 9rem;">Graphics &amp; storage</div>
-  <div class="text-2xl opacity-40">&rarr;</div>
-  <div class="rounded-2xl px-5 py-4 text-center text-lg" style="border: 1px solid rgba(15,23,42,0.2); background: rgba(15,23,42,0.04); min-width: 9rem;">Offline &amp; local files</div>
-  <div class="text-2xl opacity-40">&rarr;</div>
-  <div class="rounded-2xl px-5 py-4 text-center text-lg font-semibold" style="border: 1px solid rgba(8,145,178,0.35); background: rgba(8,145,178,0.1); min-width: 9rem;">Serious software platform</div>
-</div>
-<div class="grid grid-cols-2 gap-6">
-  <div class="rounded-2xl px-5 py-5" style="border: 1px solid rgba(153,27,27,0.2); background: rgba(153,27,27,0.04);">
-    <div class="text-sm uppercase tracking-widest opacity-60 mb-2">Plugin detour (1990s&ndash;2010s)</div>
-    <div class="text-base leading-snug opacity-80">Flash, Java applets, and similar plug-ins tried to fill the gap &mdash; and worked for a while. But each required a separate install, and each was eventually abandoned.</div>
-  </div>
-  <div class="rounded-2xl px-5 py-5" style="border: 1px solid rgba(8,145,178,0.18); background: rgba(8,145,178,0.07);">
-    <div class="text-sm uppercase tracking-widest opacity-60 mb-2">The built-in path</div>
-    <div class="text-base leading-snug">The browser kept getting more capable on its own. Today it can run serious software without any plug-in &mdash; if the code can reach it.</div>
-  </div>
-</div>
-</div>
-<div class="absolute bottom-4 right-6 text-xs opacity-60">Flash retired 2020; Java plug-in removed from major browsers by 2017</div>
 
 ---
 
