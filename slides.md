@@ -247,6 +247,7 @@ hideInToc: true
     Every interaction is a round-trip: click, wait, new page.
     The browser is a <em>display terminal</em> for someone else's machine.
   </div>
+  <br>
   <div class="pt-8 rounded-2xl px-6 py-5" style="background: rgba(8,145,178,0.07); border: 1px solid rgba(8,145,178,0.18); max-width: 32rem;">
     JavaScript ships a runtime with the page.
     Computation runs on the user's machine.
