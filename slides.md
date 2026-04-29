@@ -134,7 +134,6 @@ hideInToc: true
   </div>
 </div>
 </div>
-<div class="absolute bottom-4 right-6 left-10 text-xs opacity-60">Jacquard loom engraving 1801; punched cards Science Museum Group Collection c.&nbsp;1890; Lovelace 1843</div>
 
 ---
 
