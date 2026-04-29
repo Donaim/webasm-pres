@@ -54,56 +54,46 @@ hideInToc: true
 
 ---
 
-<div class="grid grid-cols-2 gap-6 pt-6 items-stretch">
-<div class="rounded-2xl px-6 py-6" style="border: 1px solid rgba(15,23,42,0.12); background: rgba(15,23,42,0.04);">
-  <div class="text-sm uppercase tracking-widest opacity-60 mb-3">A rule you can sing</div>
-  <div class="text-2xl leading-tight" style="max-width: 24rem;">
-    When the cuckoo comes to the bare thorn,<br>
-    Sell your cow and buy your corn;<br>
-    But when she comes to the full bit,<br>
-    Sell your corn and buy your sheep.
+# Before software, there were recipes
+
+<div class="grid grid-cols-2 gap-10 pt-6 items-start">
+<div>
+  <div class="text-sm uppercase tracking-widest opacity-60 mb-1">A rhymed recipe</div>
+  <div class="text-sm opacity-60 mb-4">Liber Cure Cocorum (c.&nbsp;1420&ndash;1440)</div>
+  <div class="text-base italic leading-relaxed rounded-2xl px-5 py-5" style="border-left: 3px solid rgba(15,23,42,0.2); background: rgba(15,23,42,0.03);">
+    Take &thorn;o chekyns and hew hom for &thorn;o seke,<br>
+    All but &thorn;e hede and &thorn;e legges eke;<br>
+    Take a handfulle of herb lovache,<br>
+    And ano&thorn;er of persely, als<br>
+    Of sage &thorn;at never was founde fals,<br>
+    And no&thorn;er of lekes and alle hom wasshe;<br>
+    &hellip;<br>
+    Take powder of gynger and canel god wone,<br>
+    Cast on &thorn;ese o&thorn;er thynges everychon;
   </div>
-  <div class="mt-8 rounded-xl px-4 py-4 text-lg" style="background: rgba(8,145,178,0.07); border: 1px solid rgba(8,145,178,0.18); display: inline-block;">
-    Condition -&gt; decision rule
-  </div>
-</div>
-<div class="rounded-2xl px-6 py-6" style="border: 1px solid rgba(15,23,42,0.12); background: rgba(15,23,42,0.04);">
-  <div class="text-sm uppercase tracking-widest opacity-60 mb-3">A workflow song</div>
-  <div style="font-size: 0.85em; line-height: 1.4; max-width: 28rem;">
-    <div style="font-size: 1.05em; line-height: 1.5;">
-      七月流火、八月萑苇。<br>
-      蚕月条桑、取彼斧斨、以伐远扬、猗彼女桑。<br>
-      七月鸣鵙、八月载绩。<br>
-      载玄载黄、我朱孔阳、为公子裳。
-    </div>
-    <div class="mt-3 italic opacity-80" style="line-height: 1.5;">
-      In the seventh month, the Fire Star marks the season;<br>
-      in the silkworm month they strip the mulberry branches and take up their axes.<br>
-      When the shrike calls in the seventh month,<br>
-      spinning begins in the eighth —<br>
-      dark and yellow cloth, bright red, for the robes of the princes.
-    </div>
-  </div>
-  <div class="mt-4 rounded-xl px-4 py-4 text-lg" style="background: rgba(8,145,178,0.07); border: 1px solid rgba(8,145,178,0.18); display: inline-block;">
-    A seasonal labor sequence in verse
+  <div class="text-sm opacity-70 mt-3">
+    A recipe <em>For to make a compost</em>: a chicken-and-herb stew.
   </div>
 </div>
+<div>
+  <div class="text-sm uppercase tracking-widest opacity-60 mb-4">Why this belongs in this talk</div>
+  <div class="text-2xl leading-snug mb-5">A recipe is a <strong>portable procedure</strong>.</div>
+  <div class="grid grid-cols-1 gap-2 text-base">
+    <div class="rounded-xl px-4 py-3" style="border: 1px solid rgba(15,23,42,0.12);">inputs &rarr; ingredients</div>
+    <div class="rounded-xl px-4 py-3" style="border: 1px solid rgba(15,23,42,0.12);">operations &rarr; chop, layer, boil, season</div>
+    <div class="rounded-xl px-4 py-3" style="border: 1px solid rgba(15,23,42,0.12);">runtime &rarr; kitchen, tools, heat, vessel</div>
+    <div class="rounded-xl px-4 py-3" style="border: 1px solid rgba(15,23,42,0.12);">hidden dependencies &rarr; the cook&rsquo;s tacit knowledge</div>
+    <div class="rounded-xl px-4 py-3" style="border: 1px solid rgba(8,145,178,0.18); background: rgba(8,145,178,0.07);">output &rarr; a reproducible dish</div>
+  </div>
+  <div class="mt-5 text-lg leading-snug font-medium" style="max-width: 26rem;">
+    The method travels, but execution still depends on the host environment.
+  </div>
+  <div class="text-sm opacity-60 mt-4">
+    Verse made recipes easier to remember &mdash; but often less precise.
+  </div>
 </div>
-<!-- <div class="absolute bottom-4 right-6 text-xs opacity-60">Presscom: the cuckoo rhyme is preserved as an agricultural proverb; Berkshire: Qi Yue is treated as a farming-calendar poem listing seasonal work</div> -->
-
----
-
-## Long before cheap, universal manuals, procedures often had to fit inside one's head.
-
-<br>
-
-## Rhythm, rhyme, and repeated performance made them portable.
-
-<br>
-
-## Verse is compression: portable, replayable, and memory-efficient.
-
-<div class="absolute bottom-4 right-6 text-xs opacity-60">OUP: instructional verse and medical verse were long used for memorability and portability</div>
+</div>
+<div class="absolute bottom-4 right-6 text-xs opacity-60">Liber Cure Cocorum, c.&nbsp;1420&ndash;1440, Sloane MS 1986</div>
 
 ---
 
@@ -186,31 +176,31 @@ hideInToc: true
 </div>
 <div class="grid grid-cols-1 gap-4 text-center">
   <div class="rounded-2xl px-5 py-5" style="border: 1px solid rgba(15,23,42,0.12); background: rgba(15,23,42,0.04);">Artifact: the printed listing</div>
-  <div class="rounded-2xl px-5 py-5" style="border: 1px solid rgba(15,23,42,0.12); background: rgba(15,23,42,0.04);">Hack: helper tools to speed BASIC keyword entry</div>
+  <div class="rounded-2xl px-5 py-5" style="border: 1px solid rgba(15,23,42,0.12); background: rgba(15,23,42,0.04);">Shortcut tools to speed up typing it all in</div>
   <div class="rounded-2xl px-5 py-5" style="border: 1px solid rgba(15,23,42,0.12); background: rgba(153,27,27,0.06);">Failure mode: cassette save errors as minor tragedy</div>
 </div>
 </div>
 
 ---
 
-# Package repositories let software travel by reference
+# Package managers: install software by name
 
 <div class="grid grid-cols-2 gap-10 pt-8 items-start">
 <div>
   <div class="text-3xl leading-tight" style="max-width: 33rem;">
-    With package repositories software becomes discoverable and installable from a shared repository rather than handed over as a pile of files.
+    Software becomes discoverable and installable from a shared repository, rather than handed over as a pile of files.
   </div>
   <div class="pt-8 text-lg leading-snug" style="max-width: 34rem;">
-    A Debian package is a description: what the software is, what it depends on, and how to obtain and compose everything it needs to run. The repository holds those descriptions; the machine does the fetching and building.
+    A package describes itself: its name, version, everything else it needs, and where to get it. The repository holds those descriptions; the machine does the fetching.
   </div>
 </div>
 <div>
   <div class="rounded-2xl px-5 py-6" style="border: 1px solid rgba(15,23,42,0.12); background: rgba(15,23,42,0.04);">
     <div class="text-sm uppercase tracking-widest opacity-60 mb-3">What travels now</div>
     <div class="grid grid-cols-1 gap-3">
-      <div class="rounded-xl px-4 py-3" style="border: 1px solid rgba(15,23,42,0.12);">A named, versioned artifact</div>
-      <div class="rounded-xl px-4 py-3" style="border: 1px solid rgba(15,23,42,0.12);">A dependency description</div>
-      <div class="rounded-xl px-4 py-3" style="border: 1px solid rgba(8,145,178,0.18); background: rgba(8,145,178,0.07);">A pointer into a shared, maintained source</div>
+      <div class="rounded-xl px-4 py-3" style="border: 1px solid rgba(15,23,42,0.12);">A name and a version number</div>
+      <div class="rounded-xl px-4 py-3" style="border: 1px solid rgba(15,23,42,0.12);">A list of everything else it needs</div>
+      <div class="rounded-xl px-4 py-3" style="border: 1px solid rgba(8,145,178,0.18); background: rgba(8,145,178,0.07);">A link into a shared, maintained collection</div>
     </div>
   </div>
 </div>
@@ -219,22 +209,22 @@ hideInToc: true
 
 ---
 
-# Containers ship more of the runtime with the code
+# Containers: ship the whole environment
 
 <div class="grid grid-cols-2 gap-10 pt-8 items-start">
 <div>
   <div class="text-3xl leading-tight" style="max-width: 33rem;">
-    A container image packages files, binaries, libraries, and configuration together. A registry stores and distributes those images.
+    A container bundles everything the software needs: the program, its tools, and its settings. A registry stores and distributes those bundles.
   </div>
   <div class="pt-8 text-lg leading-snug" style="max-width: 34rem;">
-    Containers bundle a much larger chunk of the runnable environment itself, making deployment far less dependent on what is already installed.
+    The software then runs the same way everywhere &mdash; regardless of what is already installed on the host machine.
   </div>
 </div>
 <div>
   <div class="grid grid-cols-1 gap-3">
-    <div class="rounded-2xl px-5 py-5" style="border: 1px solid rgba(15,23,42,0.12); background: rgba(15,23,42,0.04);">Package systems: distribute recipes and dependency graphs</div>
-    <div class="rounded-2xl px-5 py-5" style="border: 1px solid rgba(15,23,42,0.12); background: rgba(15,23,42,0.04);">Containers: distribute a far thicker runnable bundle</div>
-    <div class="rounded-2xl px-5 py-5" style="border: 1px solid rgba(8,145,178,0.18); background: rgba(8,145,178,0.07);">docker pull &rarr; docker run &mdash; the runtime arrives with the code</div>
+    <div class="rounded-2xl px-5 py-5" style="border: 1px solid rgba(15,23,42,0.12); background: rgba(15,23,42,0.04);">Package managers: install what you need, on the machine you&rsquo;re on</div>
+    <div class="rounded-2xl px-5 py-5" style="border: 1px solid rgba(15,23,42,0.12); background: rgba(15,23,42,0.04);">Containers: ship the whole assembled environment, ready to run</div>
+    <div class="rounded-2xl px-5 py-5" style="border: 1px solid rgba(8,145,178,0.18); background: rgba(8,145,178,0.07);">Download the container, run it &mdash; no installation steps needed</div>
   </div>
 </div>
 </div>
@@ -367,20 +357,20 @@ Different hacks, same desire: once the browser had become a richer host environm
   <ul class="list-disc text-lg leading-snug" style="padding-left: 1.2rem; max-width: 31rem;">
     <li>The browser already has UI, networking, graphics, storage, and background execution</li>
     <li>Biology already has serious browser software</li>
-    <li>URL delivery is already the easiest way to distribute a client</li>
+    <li>Sharing a URL is already the easiest way to give someone a tool</li>
   </ul>
 </div>
 <div>
   <div class="text-sm uppercase tracking-widest opacity-60 mb-3">New with Wasm</div>
   <ul class="list-disc text-lg leading-snug" style="padding-left: 1.2rem; max-width: 31rem;">
-    <li>More of the existing compute core can travel inside that package</li>
+    <li>More of our existing analysis code can run in the browser without a full rewrite</li>
     <li>Fewer tools need a server just to avoid installation pain</li>
-    <li>Fewer teams need a rewrite-from-scratch browser version</li>
+    <li>Fewer teams need to rebuild their tool from scratch just to offer a browser version</li>
   </ul>
 </div>
 </div>
 <div class="mt-10 rounded-2xl px-6 py-5" style="background: rgba(8,145,178,0.07); border: 1px solid rgba(8,145,178,0.18); max-width: 49rem;">
-What makes WebAssembly interesting here is that this increasingly OS-like browser environment can now host larger pieces of existing software inside a browser-delivered tool.
+The browser is now capable enough to host serious software. WebAssembly is what lets existing code &mdash; written in any language &mdash; travel inside a URL without a full rewrite.
 </div>
 <div class="absolute bottom-4 right-6 text-xs opacity-60">MDN: Wasm complements JavaScript and lets code from multiple languages run in modern browsers</div>
 
