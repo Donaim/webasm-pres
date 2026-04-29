@@ -231,12 +231,10 @@ hideInToc: true
     NCSA&rsquo;s big move was simple and enormous: pictures appeared automatically alongside text. After that, the browser keeps accumulating capabilities that make it feel more and more like a general host for software.
   </div>
   <div class="mt-6 rounded-2xl px-5 py-5" style="background: rgba(15,23,42,0.05); border: 1px solid rgba(15,23,42,0.12);">
-    <div class="text-sm uppercase tracking-widest opacity-60 mb-2">The shift</div>
     The browser stops being a page of linked text and starts becoming a software delivery mechanism.
   </div>
 </div>
 </div>
-<div class="absolute bottom-4 right-6 text-xs opacity-60">NCSA Mosaic 1993: first browser to display images inline with text</div>
 
 ---
 
