@@ -297,6 +297,7 @@ Objection, and a real one: executable code arriving through what had been a pass
     Survive a lost connection <br>
     Open files from your machine, use the camera, read your location <br>
   </div>
+  </div>
 </div>
 <div>
   <div class="text-xl leading-snug mb-6">All along, people wanted to run real software in it. Flash was the most successful attempt — but it required a separate plug-in, and it eventually died.</div>
