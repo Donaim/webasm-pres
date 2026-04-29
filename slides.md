@@ -98,7 +98,7 @@ hideInToc: true
 
 <div class="grid grid-cols-2 gap-10 pt-6 items-start">
 <div>
-  <img src="/assets/balmis.png" alt="Painting of the Balmis expedition" class="rounded-2xl w-full" style="max-height: 18rem; object-fit: cover; object-position: center top;">
+  <img src="/assets/balmis.png" alt="Painting of the Balmis expedition" class="rounded-2xl w-full" style="object-fit: cover; object-position: center top;">
 </div>
 <div>
   <div class="text-4xl leading-tight" style="max-width: 30rem; color: rgb(153,27,27);">
