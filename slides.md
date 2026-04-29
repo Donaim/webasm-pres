@@ -1,8 +1,8 @@
 ---
-title: Packaging Methods
+title: Software Packaging
 theme: seriph
 info: |
-  ## Packaging Methods
+  ## Software Packaging
   A history of how procedures get packaged and deployed — from verse to WebAssembly.
 class: text-left
 drawings:
@@ -15,7 +15,7 @@ hideInToc: true
 
 <div class="pt-14">
   <h1 style="font-size: 3em; line-height: 1.02; margin-top: 0.45rem; max-width: 42rem;">
-    Packaging Methods
+    Software Packaging
   </h1>
   <p style="font-size: 1.3em; max-width: 41rem; margin-top: 1.3rem; line-height: 1.35;">
     A history of how procedures get packaged and deployed — from verse to WebAssembly.
