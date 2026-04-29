@@ -59,7 +59,6 @@ hideInToc: true
 <div class="grid grid-cols-2 gap-10 pt-6 items-start">
 <div>
   <div class="text-sm uppercase tracking-widest opacity-60 mb-1">A rhymed recipe</div>
-  <div class="text-sm opacity-60 mb-4">Liber Cure Cocorum (c.&nbsp;1420&ndash;1440)</div>
   <div class="text-base italic leading-relaxed rounded-2xl px-5 py-5" style="border-left: 3px solid rgba(15,23,42,0.2); background: rgba(15,23,42,0.03);">
     Take &thorn;o chekyns and hew hom for &thorn;o seke,<br>
     All but &thorn;e hede and &thorn;e legges eke;<br>
@@ -91,7 +90,7 @@ hideInToc: true
   </div>
 </div>
 </div>
-<div class="absolute bottom-4 right-6 text-xs opacity-60">Liber Cure Cocorum, c.&nbsp;1420&ndash;1440, Sloane MS 1986</div>
+<div class="absolute bottom-4 left-6 text-xs opacity-60">Liber Cure Cocorum, c.&nbsp;1420&ndash;1440, Sloane MS 1986</div>
 
 ---
 
