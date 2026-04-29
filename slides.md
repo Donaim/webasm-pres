@@ -284,65 +284,30 @@ Objection, and a real one: executable code arriving through what had been a pass
 
 ---
 
-# The browser becomes a platform
+# The browser grows into a platform
 
-<div class="grid grid-cols-3 gap-4 pt-6">
-<div class="rounded-2xl px-5 py-5" style="border: 1px solid rgba(15,23,42,0.12); background: rgba(15,23,42,0.04);">
-  <div class="text-sm uppercase tracking-widest opacity-60 mb-2">Canvas · WebGL · WebGPU</div>
-  <div class="text-lg leading-snug">2D pixel drawing, GPU-accelerated 3D, massively parallel compute</div>
+<div class="grid grid-cols-2 gap-10 pt-8 items-start">
+<div>
+  <div class="text-xl leading-snug mb-6">Built for reading documents, the browser slowly gained abilities that made it feel more like a desktop operating system:</div>
+  <div class="grid grid-cols-1 gap-3">
+    <div class="rounded-xl px-4 py-3" style="border: 1px solid rgba(15,23,42,0.12); background: rgba(15,23,42,0.04);">Draw graphics and animations</div>
+    <div class="rounded-xl px-4 py-3" style="border: 1px solid rgba(15,23,42,0.12); background: rgba(15,23,42,0.04);">Remember data between visits, without a server</div>
+    <div class="rounded-xl px-4 py-3" style="border: 1px solid rgba(15,23,42,0.12); background: rgba(15,23,42,0.04);">Keep working in the background</div>
+    <div class="rounded-xl px-4 py-3" style="border: 1px solid rgba(15,23,42,0.12); background: rgba(15,23,42,0.04);">Survive a lost connection</div>
+    <div class="rounded-xl px-4 py-3" style="border: 1px solid rgba(15,23,42,0.12); background: rgba(15,23,42,0.04);">Open files from your machine, use the camera, read your location</div>
+  </div>
 </div>
-<div class="rounded-2xl px-5 py-5" style="border: 1px solid rgba(15,23,42,0.12); background: rgba(15,23,42,0.04);">
-  <div class="text-sm uppercase tracking-widest opacity-60 mb-2">Web Workers</div>
-  <div class="text-lg leading-snug">Heavy computation moves off the UI thread; the page stays responsive</div>
-</div>
-<div class="rounded-2xl px-5 py-5" style="border: 1px solid rgba(15,23,42,0.12); background: rgba(15,23,42,0.04);">
-  <div class="text-sm uppercase tracking-widest opacity-60 mb-2">IndexedDB · localStorage</div>
-  <div class="text-lg leading-snug">Structured persistent state without a server round-trip</div>
-</div>
-<div class="rounded-2xl px-5 py-5" style="border: 1px solid rgba(15,23,42,0.12); background: rgba(15,23,42,0.04);">
-  <div class="text-sm uppercase tracking-widest opacity-60 mb-2">WebSockets · WebRTC</div>
-  <div class="text-lg leading-snug">Persistent two-way and peer-to-peer connections, not just request-response</div>
-</div>
-<div class="rounded-2xl px-5 py-5" style="border: 1px solid rgba(15,23,42,0.12); background: rgba(15,23,42,0.04);">
-  <div class="text-sm uppercase tracking-widest opacity-60 mb-2">Service Workers · Cache API</div>
-  <div class="text-lg leading-snug">Intercept every network request; the app keeps running when the network disappears</div>
-</div>
-<div class="rounded-2xl px-5 py-5" style="border: 1px solid rgba(8,145,178,0.18); background: rgba(8,145,178,0.07);">
-  <div class="text-sm uppercase tracking-widest opacity-60 mb-2">File access · Web Audio · USB · Geolocation</div>
-  <div class="text-lg leading-snug">The browser reaches into the machine and the physical world</div>
+<div>
+  <div class="text-xl leading-snug mb-6">All along, people wanted to run real software in it. Flash was the most successful attempt — but it required a separate plug-in, and it eventually died.</div>
+  <div class="rounded-2xl px-5 py-5" style="border: 1px solid rgba(153,27,27,0.12); background: rgba(153,27,27,0.04);">
+    Every plug-in approach had the same problem: users had to install something extra, browsers had to support it, and each one eventually got abandoned.
+  </div>
+  <div class="mt-5 rounded-2xl px-5 py-5" style="border: 1px solid rgba(8,145,178,0.18); background: rgba(8,145,178,0.07);">
+    The desire was always there. A built-in solution wasn&rsquo;t &mdash; until WebAssembly.
+  </div>
 </div>
 </div>
-<div class="mt-8 text-xl leading-snug" style="max-width: 49rem;">
-The accumulated result: a user-space operating environment delivered through a URL.
-</div>
-<div class="absolute bottom-4 right-6 text-xs opacity-60">Canvas 2004, Web Workers 2010, IndexedDB 2011, WebRTC 2012, Service Workers 2015, WebGPU 2023 — each capability would have seemed out of place in a document viewer</div>
-
----
-
-# The browser kept trying to smuggle in a runtime
-
-<div class="grid grid-cols-4 gap-4 pt-8 text-center items-stretch">
-<div class="rounded-2xl px-4 py-6" style="border: 1px solid rgba(15,23,42,0.12); background: rgba(15,23,42,0.04);">
-  <div class="text-sm uppercase tracking-widest opacity-60 mb-3">Java applets</div>
-  <div class="text-lg">Bring a whole JVM into the page</div>
-</div>
-<div class="rounded-2xl px-4 py-6" style="border: 1px solid rgba(15,23,42,0.12); background: rgba(15,23,42,0.04);">
-  <div class="text-sm uppercase tracking-widest opacity-60 mb-3">Flash</div>
-  <div class="text-lg">A parallel plug-in world for rich apps</div>
-</div>
-<div class="rounded-2xl px-4 py-6" style="border: 1px solid rgba(15,23,42,0.12); background: rgba(15,23,42,0.04);">
-  <div class="text-sm uppercase tracking-widest opacity-60 mb-3">NaCl / PNaCl</div>
-  <div class="text-lg">Native-ish code, but trapped in one browser's story</div>
-</div>
-<div class="rounded-2xl px-4 py-6" style="border: 1px solid rgba(153,27,27,0.18); background: rgba(153,27,27,0.07);">
-  <div class="text-sm uppercase tracking-widest opacity-60 mb-3">asm.js</div>
-  <div class="text-lg">Compiled code disguised as weird JavaScript</div>
-</div>
-</div>
-<div class="mt-10 rounded-2xl px-6 py-5" style="background: rgba(8,145,178,0.07); border: 1px solid rgba(8,145,178,0.18); max-width: 48rem;">
-Different hacks, same desire: once the browser had become a richer host environment, people kept trying to smuggle in larger runtimes and more serious software.
-</div>
-<div class="absolute bottom-4 right-6 text-xs opacity-60">Oracle: applets and Java deployment stack removed; MDN: asm.js deprecated in favor of WebAssembly</div>
+<div class="absolute bottom-4 right-6 text-xs opacity-60">Flash retired 2020; Java plug-in removed from major browsers by 2017</div>
 
 ---
 
