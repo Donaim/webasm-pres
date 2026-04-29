@@ -118,10 +118,6 @@ hideInToc: true
 <div class="grid grid-cols-2 gap-10 pt-6 items-start">
 <div>
   <img src="/assets/jacquard-loom.jpg" alt="Jacquard loom engraving, 1801" class="rounded-2xl w-full" style="max-height: 26rem; object-fit: cover; object-position: center;">
-  <div class="mt-3 grid grid-cols-2 gap-3 items-start">
-    <img src="/assets/jacquard-cards.jpg" alt="Jacquard punched cards, c. 1890" class="rounded-xl w-full" style="max-height: 9rem; object-fit: cover;">
-    <div class="text-sm leading-snug opacity-70 pt-1">Each card encodes one row of the pattern. Stack the cards, replay the sequence &mdash; same cloth, anywhere.</div>
-  </div>
 </div>
 <div>
   <div class="text-2xl leading-tight" style="max-width: 33rem;">
