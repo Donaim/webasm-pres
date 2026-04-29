@@ -145,8 +145,7 @@ hideInToc: true
 
 <div class="grid grid-cols-2 gap-10 pt-6 items-start">
 <div>
-  <img src="/assets/magazine-listing.jpg" alt="Amstrad CPC magazine code listing" class="rounded-2xl w-full" style="max-height: 26rem; object-fit: cover; object-position: top;">
-  <div class="text-sm opacity-60 mt-2">An Amstrad CPC listing from <em>Amstrad Computer User</em>, January 1992. Type it in, save to cassette.</div>
+  <img src="/assets/magazine-listing.jpg" class="rounded-2xl w-full" style="max-height: 26rem; object-fit: cover; object-position: top;">
 </div>
 <div>
   <div class="text-3xl leading-tight" style="max-width: 32rem;">
