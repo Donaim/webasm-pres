@@ -39,7 +39,7 @@ hideInToc: true
   <div class="grid grid-cols-1 gap-4">
     <div class="rounded-2xl px-5 py-4" style="border: 1px solid rgba(15,23,42,0.12); background: rgba(15,23,42,0.04);">
       <div class="text-sm uppercase tracking-widest opacity-60 mb-1">At work</div>
-      <div class="text-lg">Part of the software development team at the lab</div>
+      <div class="text-lg">Software developer for the lab</div>
     </div>
     <div class="rounded-2xl px-5 py-4" style="border: 1px solid rgba(15,23,42,0.12); background: rgba(15,23,42,0.04);">
       <div class="text-sm uppercase tracking-widest opacity-60 mb-1">Outside work</div>
@@ -54,13 +54,7 @@ hideInToc: true
   </div>
 </div>
 <div class="flex flex-col items-center justify-center gap-3">
-  <div class="rounded-2xl w-full flex items-center justify-center" style="height: 18rem; border: 2px dashed rgba(15,23,42,0.18); background: rgba(15,23,42,0.03);">
-    <div class="text-center opacity-40">
-      <div class="text-5xl mb-3">🏓</div>
-      <div class="text-sm uppercase tracking-widest">Pickleball photo</div>
-      <div class="text-xs mt-1">placeholder</div>
-    </div>
-  </div>
+  <img src="/assets/me.jpeg" alt="Playing pickleball" class="rounded-2xl w-full" style="height: 18rem; object-fit: cover;">
 </div>
 </div>
 
