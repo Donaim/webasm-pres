@@ -43,7 +43,7 @@ hideInToc: true
     </div>
     <div class="rounded-2xl px-5 py-4" style="border: 1px solid rgba(15,23,42,0.12); background: rgba(15,23,42,0.04);">
       <div class="text-sm uppercase tracking-widest opacity-60 mb-1">Outside work</div>
-      <div class="text-lg">Programming &nbsp;&middot;&nbsp; Board games &nbsp;&middot;&nbsp; Pickleball</div>
+      <div class="text-lg">A programmer &nbsp;&middot;&nbsp; Board gamer &nbsp;&middot;&nbsp; Pickleballer</div>
     </div>
     <div class="rounded-2xl px-5 py-4" style="border: 1px solid rgba(58,130,246,0.3); background: rgba(58,130,246,0.06);">
       <div class="flex items-center gap-3">
