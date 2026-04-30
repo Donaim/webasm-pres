@@ -38,11 +38,11 @@ hideInToc: true
 <div>
   <div class="grid grid-cols-1 gap-4">
     <div class="rounded-2xl px-5 py-4" style="border: 1px solid rgba(15,23,42,0.12); background: rgba(15,23,42,0.04);">
-      <div class="text-sm uppercase tracking-widest opacity-60 mb-1">During the day</div>
+      <div class="text-sm uppercase tracking-widest opacity-60 mb-1">At work</div>
       <div class="text-lg">Part of the software development team at the lab</div>
     </div>
     <div class="rounded-2xl px-5 py-4" style="border: 1px solid rgba(15,23,42,0.12); background: rgba(15,23,42,0.04);">
-      <div class="text-sm uppercase tracking-widest opacity-60 mb-1">During the night</div>
+      <div class="text-sm uppercase tracking-widest opacity-60 mb-1">Outside work</div>
       <div class="text-lg">Programming &nbsp;&middot;&nbsp; Board games &nbsp;&middot;&nbsp; Pickleball</div>
     </div>
     <div class="rounded-2xl px-5 py-4" style="border: 1px solid rgba(58,130,246,0.3); background: rgba(58,130,246,0.06);">
