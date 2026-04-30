@@ -32,24 +32,18 @@ hideInToc: true
 
 ---
 
-# Packaging is an old problem
-
-<div class="pt-14 text-3xl leading-snug" style="max-width: 48rem;">
-  This talk is a history of software packaging.
-</div>
-
 <div class="pt-10 text-3xl leading-snug" style="max-width: 49rem;">
-  The history stretches further back than the word "software":
+  Writing down a method is only the first step. <br>
+  To share it, you need to package it in a form that can be reproduced elsewhere.
 </div>
 
 <div class="pt-10 text-4xl leading-tight" style="max-width: 50rem; color: rgb(8,145,178);">
-  every method needs a host,
-  <br>
+  Every method needs a host, <br>
   and some way to be reproduced elsewhere.
 </div>
 
-<div class="pt-12 text-xl leading-snug opacity-80" style="max-width: 46rem;">
-  Long before code, people were already solving that problem.
+<div class="pt-14 text-3xl leading-snug" style="max-width: 48rem;">
+  This talk is about the history of software packaging.
 </div>
 
 ---
