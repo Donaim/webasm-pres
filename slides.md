@@ -116,7 +116,6 @@ Here's the framing for the whole talk: writing a method down is not enough. To m
     <div class="rounded-xl px-4 py-3" style="border: 1px solid rgba(15,23,42,0.12);">code &approx; chop, layer, boil, season</div>
     <div class="rounded-xl px-4 py-3" style="border: 1px solid rgba(15,23,42,0.12);">dependencies &approx; ingredients</div>
     <div class="rounded-xl px-4 py-3" style="border: 1px solid rgba(15,23,42,0.12);">runtime &approx; kitchen, tools, heat, vessel</div>
-    <div class="rounded-xl px-4 py-3" style="border: 1px solid rgba(8,145,178,0.18); background: rgba(8,145,178,0.07);">output &approx; a reproducible dish</div>
   </div>
   <div class="mt-5 text-lg leading-snug font-medium" style="max-width: 26rem;">
     The method travels, but execution still depends on the host environment.
