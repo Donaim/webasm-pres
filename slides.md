@@ -120,9 +120,6 @@ Here's the framing for the whole talk: writing a method down is not enough. To m
   <div class="mt-5 text-lg leading-snug font-medium" style="max-width: 26rem;">
     The method travels, but execution still depends on the host environment.
   </div>
-  <div class="text-sm opacity-60 mt-4">
-    Verse made recipes easier to remember &mdash; but often less precise.
-  </div>
 </div>
 </div>
 
