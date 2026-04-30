@@ -92,13 +92,17 @@ hideInToc: true
 </div>
 <div class="absolute bottom-4 left-6 text-xs opacity-60">Liber Cure Cocorum, c.&nbsp;1420&ndash;1440, Sloane MS 1986</div>
 
+<!--
+The instructions travel; execution still depends on the kitchen. A recipe is the first packaging format — it separates the method from the practitioner who created it.
+-->
+
 ---
 
 # Shipping a live process
 
 <div class="grid grid-cols-2 gap-10 pt-6 items-start">
 <div>
-  <img src="/assets/balmis.png" alt="Painting of the Balmis expedition" class="rounded-2xl w-full" style="object-fit: cover; object-position: center top;">
+  <img src="/assets/balmis.png" alt="1803 Balmis expedition: 22 orphan children carried live smallpox vaccine arm-to-arm across the Atlantic to Spanish colonies." class="rounded-2xl w-full" style="object-fit: cover; object-position: center top;">
 </div>
 <div>
   <div class="text-4xl leading-tight" style="max-width: 30rem; color: rgb(153,27,27);">
@@ -111,20 +115,24 @@ hideInToc: true
 </div>
 <div class="absolute bottom-4 right-6 text-xs opacity-60">Balmis expedition 1803 &mdash; arm-to-arm chain kept the vaccine alive across the ocean</div>
 
+<!--
+This is the extreme case where the package itself must stay alive in transit. The procedure could not be frozen into an artifact — it had to run continuously. Documentation and local institutions were the companion artifacts.
+-->
+
 ---
 
-# From woven patterns to algebraical patterns
+# Mechanization of procedures
 
 <div class="grid grid-cols-2 gap-10 pt-6 items-start">
 <div>
   <img src="/assets/jacquard-loom.jpg" alt="Jacquard loom engraving, 1801" class="rounded-2xl w-full" style="max-height: 26rem; object-fit: cover; object-position: center;">
 </div>
 <div>
-  <div class="pt-6 text-lg leading-snug" style="max-width: 34rem;">
-    Babbage borrowed that punched-card logic for the Analytical Engine. Lovelace saw the deeper shift: the same mechanism could control symbolic operations, not only textile patterns.
-  </div>
   <div class="mt-6 rounded-2xl px-5 py-5" style="background: rgba(8,145,178,0.07); border: 1px solid rgba(8,145,178,0.18);">
     The punched card began as a way to make a procedure detachable from the craft that first embodied it.
+  </div>
+  <div class="pt-6 text-lg leading-snug" style="max-width: 34rem;">
+    Babbage borrowed that punched-card logic for the Analytical Engine. Lovelace saw the deeper shift: the same mechanism could control symbolic operations, not only textile patterns.
   </div>
   <br>
   <div class="pt-5 text-xl italic leading-snug" style="border-left: 3px solid rgba(8,145,178,0.4); padding-left: 1rem; max-width: 33rem;">
@@ -134,9 +142,8 @@ hideInToc: true
 </div>
 
 <!--
-
   Jacquard cards made a pattern detachable from the loom: stored, copied, transported, and replayed by a machine.
-
+  The key shift is detachability, not textile history. The same card stack produces the same cloth on any compatible loom.
 -->
 
 ---
@@ -145,7 +152,7 @@ hideInToc: true
 
 <div class="grid grid-cols-2 gap-10 pt-6 items-start">
 <div>
-  <img src="/assets/magazine-listing.jpg" class="rounded-2xl w-full" style="max-height: 26rem; object-fit: cover; object-position: top;">
+  <img src="/assets/magazine-listing.jpg" alt="Printed magazine page containing a type-in home-computer program listing for the Amstrad CPC." class="rounded-2xl w-full" style="max-height: 26rem; object-fit: cover; object-position: top;">
 </div>
 <div>
   <div class="text-3xl leading-tight" style="max-width: 32rem;">
@@ -188,6 +195,10 @@ hideInToc: true
 </div>
 <div class="absolute bottom-4 right-6 text-xs opacity-60">Debian project; GNU Guix: package collections make software distribution reproducible and declarative</div>
 
+<!--
+The package now describes itself, and the machine does the retrieval. This is a much larger shift than it first appears: the software is no longer a pile of files you hand someone, but an entry in a shared, maintained catalog.
+-->
+
 ---
 
 # Containers: ship the whole environment
@@ -210,6 +221,10 @@ hideInToc: true
 </div>
 </div>
 <div class="absolute bottom-4 right-6 text-xs opacity-60">Docker documentation: an image is a read-only template of instructions for creating a container</div>
+
+<!--
+This is packaging at a fuller runtime boundary. Package managers install what you need on the host; containers ship the whole assembled environment. The host machine becomes less important.
+-->
 
 ---
 
@@ -235,6 +250,10 @@ hideInToc: true
   </div>
 </div>
 </div>
+
+<!--
+The browser starts to become not just a viewer, but a delivery surface. Pictures inline with text seems trivial — but it was the first step in a long accumulation of capabilities that turns the browser into a full software platform.
+-->
 
 ---
 
@@ -265,6 +284,14 @@ hideInToc: true
 </div>
 </div>
 <div class="absolute bottom-4 right-6 text-xs opacity-60">Flash retired 2020; Java plug-in removed from major browsers by 2017</div>
+
+<!--
+The winning pattern was built-in capability, not perpetual plugin dependency. Every plug-in approach hit the same wall: users had to install something extra, and each plug-in was eventually abandoned. The browser won by absorbing those capabilities natively.
+-->
+
+<!--
+The winning pattern was built-in capability, not perpetual plugin dependency. Every plug-in approach hit the same wall: users had to install something extra, browsers had to support it, and each was eventually abandoned.
+-->
 
 ---
 
@@ -326,17 +353,18 @@ Objection, and a real one: executable code arriving through what had been a pass
   <div class="text-lg leading-snug">More proven analysis code can travel to the web without being rewritten from scratch.</div>
 </div>
 </div>
-<div class="mt-8 rounded-2xl px-6 py-5" style="background: rgba(8,145,178,0.07); border: 1px solid rgba(8,145,178,0.18); max-width: 52rem;">
-  WebAssembly helps the browser become a delivery box for real tools: easy to share, safer to run, and still local when the data should stay local.
-</div>
 <div class="absolute bottom-4 right-6 text-xs opacity-60">MDN: Wasm lets code from many languages run in modern browsers without a plug-in</div>
+
+<!--
+The URL and the local machine no longer have to be opposites. A link can now deliver a tool that runs entirely on the user's hardware — no server required for computation, no upload required for data.
+-->
 
 ---
 layout: iframe-right
 url: https://cfe-lab.github.io/CFEIntact/app/
 ---
 
-# CFEIntact, as the tool itself
+# CFEIntact proof of concept
 
 <ul class="list-disc text-lg leading-snug pt-8" style="padding-left: 1.2rem; max-width: 22rem;">
 <li>Reached by URL</li>
@@ -391,6 +419,7 @@ That third box matters when distribution is painful, confidentiality matters, an
     Most of BBLabs
   </div>
 </div>
+<br>
 <div class="mt-8 rounded-2xl px-6 py-5" style="background: rgba(8,145,178,0.07); border: 1px solid rgba(8,145,178,0.18); max-width: 48rem;">
 These are good candidates when installation hurts more than the algorithm, and when server centralization buys less than local privacy and easy distribution.
 </div>
@@ -402,6 +431,10 @@ These are good candidates when installation hurts more than the algorithm, and w
 <div class="pt-12 text-4xl leading-tight" style="max-width: 49rem;">
 The browser is the latest in a long line of strange containers people have invented to move a method.
 </div>
-<div class="pt-10 text-3xl leading-tight" style="max-width: 49rem;">
-WebAssembly is one reason more of our existing lab software can now fit inside it.
+<div class="pt-8 text-2xl leading-tight opacity-80" style="max-width: 49rem;">
+  WebAssembly is one reason more of our existing lab software can now fit inside it.
 </div>
+
+<!--
+End on the decision rule first, then let the historical framing land as the close. The audience should leave with a criterion they can apply immediately.
+-->
