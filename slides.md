@@ -101,7 +101,7 @@ TODO: Mention things like my name is Vitalik, I do a lot of programming at home,
   <div class="text-sm opacity-70 mt-3">
     A recipe <em>For to make a compost</em> (a chicken-and-herb stew)
     <br>
-    Liber Cure Cocorum, c.&nbsp;1420&ndash;1440, Sloane MS 1986
+    Liber Cure Cocorum, c.&nbsp;1420&ndash;1440
   </div>
 </div>
 <div>
