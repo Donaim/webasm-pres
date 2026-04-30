@@ -121,7 +121,9 @@ TODO: Mention things like my name is Vitalik, I do a lot of programming at home,
 <div class="absolute bottom-4 left-6 text-xs opacity-60">Liber Cure Cocorum, c.&nbsp;1420&ndash;1440, Sloane MS 1986</div>
 
 <!--
-The instructions travel; execution still depends on the kitchen. A recipe is the first packaging format — it separates the method from the practitioner who created it.
+
+TODO: I want to actually read the recipe aloud.
+
 -->
 
 ---
@@ -144,7 +146,9 @@ The instructions travel; execution still depends on the kitchen. A recipe is the
 <div class="absolute bottom-4 right-6 text-xs opacity-60">Balmis expedition 1803 &mdash; arm-to-arm chain kept the vaccine alive across the ocean</div>
 
 <!--
-This is the extreme case where the package itself must stay alive in transit. The procedure could not be frozen into an artifact — it had to run continuously. Documentation and local institutions were the companion artifacts.
+
+TODO: this slides needs me to actually retell the story of the expedition, which may take a minute.
+
 -->
 
 ---
