@@ -142,11 +142,12 @@ Q&A backup: If someone asks about the analogy, the point is that recipes and pro
   <img src="/assets/balmis.png" alt="1803 Balmis expedition: 22 orphan children carried live smallpox vaccine arm-to-arm across the Atlantic to Spanish colonies." class="rounded-2xl w-full" style="object-fit: cover; object-position: center top;">
 </div>
 <div>
-  <div class="text-4xl leading-tight" style="max-width: 30rem; color: rgb(153,27,27);">
-    Transporting a viable instance of the procedure was the hard part.
-  </div>
   <div class="pt-6 text-lg leading-snug" style="max-width: 33rem;">
     In 1803 the Balmis expedition carried the smallpox vaccine across the Atlantic as a running biological chain: 22 children, each inoculated arm-to-arm in turn. Documentation and local institutions traveled alongside the live material.
+  </div>
+  <br>
+  <div class="text-4xl leading-tight" style="max-width: 30rem; color: rgb(153,27,27);">
+    Transporting a viable instance of the procedure was the hard part.
   </div>
 </div>
 </div>
