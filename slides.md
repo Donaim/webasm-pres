@@ -58,6 +58,12 @@ hideInToc: true
 </div>
 </div>
 
+<!--
+
+TODO: Mention things like my name is Vitalik, I do a lot of programming at home, etc.
+
+-->
+
 ---
 
 <div class="pt-10 text-3xl leading-snug" style="max-width: 49rem;">
