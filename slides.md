@@ -32,6 +32,41 @@ hideInToc: true
 
 ---
 
+# About me
+
+<div class="grid grid-cols-2 gap-10 pt-6 items-start">
+<div>
+  <div class="text-2xl leading-snug mb-6">I&rsquo;m part of the software development team at the lab.</div>
+  <div class="grid grid-cols-1 gap-4">
+    <div class="rounded-2xl px-5 py-4" style="border: 1px solid rgba(15,23,42,0.12); background: rgba(15,23,42,0.04);">
+      <div class="text-sm uppercase tracking-widest opacity-60 mb-1">Day job</div>
+      <div class="text-lg">Writing and maintaining software tools for bioinformatics workflows</div>
+    </div>
+    <div class="rounded-2xl px-5 py-4" style="border: 1px solid rgba(15,23,42,0.12); background: rgba(15,23,42,0.04);">
+      <div class="text-sm uppercase tracking-widest opacity-60 mb-1">Away from the keyboard</div>
+      <div class="text-lg">Programming &nbsp;&middot;&nbsp; Board games &nbsp;&middot;&nbsp; Pickleball</div>
+    </div>
+    <div class="rounded-2xl px-5 py-4" style="border: 1px solid rgba(58,130,246,0.3); background: rgba(58,130,246,0.06);">
+      <div class="flex items-center gap-3">
+        <span style="font-size: 1.6rem;">🇺🇦</span>
+        <div class="text-base leading-snug">Thank you for your support of Ukraine. It means a great deal.</div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="flex flex-col items-center justify-center gap-3">
+  <div class="rounded-2xl w-full flex items-center justify-center" style="height: 18rem; border: 2px dashed rgba(15,23,42,0.18); background: rgba(15,23,42,0.03);">
+    <div class="text-center opacity-40">
+      <div class="text-5xl mb-3">🏓</div>
+      <div class="text-sm uppercase tracking-widest">Pickleball photo</div>
+      <div class="text-xs mt-1">placeholder</div>
+    </div>
+  </div>
+</div>
+</div>
+
+---
+
 <div class="pt-10 text-3xl leading-snug" style="max-width: 49rem;">
   Writing down a method is only the first step. <br>
   To share it, you need to package it in a form that can be reproduced elsewhere.
