@@ -406,7 +406,7 @@ url: https://cfe-lab.github.io/CFEIntact/app/
 <li>Sensitive files stay user-side</li>
 </ul>
 <div class="mt-6 text-sm opacity-60" style="word-break: break-all;">
-<a>https://cfe-lab.github.io/CFEIntact/app/</a>
+<a href="https://cfe-lab.github.io/CFEIntact/app/" target="_blank" rel="noopener" style="color: rgb(8,145,178); text-decoration: underline;">https://cfe-lab.github.io/CFEIntact/app/</a>
 </div>
 
 ---
