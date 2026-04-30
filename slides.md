@@ -30,6 +30,10 @@ hideInToc: true
   <div>URLs</div>
 </div>
 
+<!--
+Today I want to look at software packaging as a much older problem: how do you move a method from one place to another? The practical destination is the browser, and why it now matters for lab tools.
+-->
+
 ---
 
 # About me
@@ -59,9 +63,7 @@ hideInToc: true
 </div>
 
 <!--
-
-TODO: Mention things like my name is Vitalik, I do a lot of programming at home, etc.
-
+I'm Vitalik. I build software for the lab, and outside work I'm the sort of person who keeps programming anyway. And before I go on, thank you for supporting Ukraine; I really do appreciate it.
 -->
 
 ---
@@ -79,6 +81,10 @@ TODO: Mention things like my name is Vitalik, I do a lot of programming at home,
 <div class="pt-14 text-3xl leading-snug" style="max-width: 48rem;">
   This talk is about the history of software packaging.
 </div>
+
+<!--
+Here's the framing for the whole talk: writing a method down is not enough. To make it useful elsewhere, you need a host that can run it and a way to reproduce it reliably.
+-->
 
 ---
 
@@ -122,9 +128,9 @@ TODO: Mention things like my name is Vitalik, I do a lot of programming at home,
 </div>
 
 <!--
+A recipe is an early portable procedure. I'll read just a line or two so you can hear that form. Then the analogy is simple: inputs, operations, runtime, output. The instructions travel, but execution still depends on the local kitchen.
 
-TODO: I want to actually read the recipe aloud.
-
+Q&A backup: If someone asks about the analogy, the point is that recipes and programs both separate the procedure from the performer.
 -->
 
 ---
@@ -147,9 +153,9 @@ TODO: I want to actually read the recipe aloud.
 <div class="absolute bottom-4 right-6 text-xs opacity-60">Balmis expedition 1803 &mdash; arm-to-arm chain kept the vaccine alive across the ocean</div>
 
 <!--
+This example makes the same point more dramatically. In the Balmis expedition, the hard part was not the idea of vaccination; it was transporting a living, working instance across the ocean. The host and delivery chain mattered as much as the procedure itself.
 
-TODO: this slides needs me to actually retell the story of the expedition, which may take a minute.
-
+Q&A backup: If someone wants the historical detail, the point here is not the full medical story; it is that a working process had to be transported, not just described.
 -->
 
 ---
@@ -175,8 +181,9 @@ TODO: this slides needs me to actually retell the story of the expedition, which
 </div>
 
 <!--
-  Jacquard cards made a pattern detachable from the loom: stored, copied, transported, and replayed by a machine.
-  The key shift is detachability, not textile history. The same card stack produces the same cloth on any compatible loom.
+With punched cards, the procedure becomes detachable from the original craft. The pattern no longer lives only in the weaver's hands. It can be stored, copied, moved, and replayed by any compatible machine.
+
+Q&A backup: If asked why this matters, say the breakthrough was detachability: the procedure could be stored and replayed independent of the original craftsperson.
 -->
 
 ---
@@ -201,6 +208,10 @@ TODO: this slides needs me to actually retell the story of the expedition, which
   </ul>
 </div>
 </div>
+
+<!--
+By the home-computer era, people were literally shipping software on paper. The printed listing was the package, and the user supplied the runtime by typing it in. It worked, but distribution was slow, fragile, and human-powered.
+-->
 
 ---
 
@@ -229,7 +240,9 @@ TODO: this slides needs me to actually retell the story of the expedition, which
 <div class="absolute bottom-4 right-6 text-xs opacity-60">Debian project; GNU Guix: package collections make software distribution reproducible and declarative</div>
 
 <!--
-The package now describes itself, and the machine does the retrieval. This is a much larger shift than it first appears: the software is no longer a pile of files you hand someone, but an entry in a shared, maintained catalog.
+Package managers change the unit of delivery. Instead of handing someone files, you hand them a name, a version, and a dependency description, and the machine retrieves the rest from a shared catalog.
+
+Q&A backup: If asked for a modern analogy, this is the shift from handing over files directly to resolving software from a maintained repository.
 -->
 
 ---
@@ -256,7 +269,9 @@ The package now describes itself, and the machine does the retrieval. This is a 
 <div class="absolute bottom-4 right-6 text-xs opacity-60">Docker documentation: an image is a read-only template of instructions for creating a container</div>
 
 <!--
-This is packaging at a fuller runtime boundary. Package managers install what you need on the host; containers ship the whole assembled environment. The host machine becomes less important.
+Containers move that boundary outward. Instead of installing pieces onto the host, you ship a preassembled environment. That lowers setup friction and makes behavior more consistent, even though the host still provides the final place to run.
+
+Q&A backup: If someone asks for the difference in one line: package managers assemble on the host, while containers ship a prepared runtime boundary.
 -->
 
 ---
@@ -285,7 +300,7 @@ This is packaging at a fuller runtime boundary. Package managers install what yo
 </div>
 
 <!--
-The browser starts to become not just a viewer, but a delivery surface. Pictures inline with text seems trivial — but it was the first step in a long accumulation of capabilities that turns the browser into a full software platform.
+This screenshot shows the web before the browser became a platform. Mosaic matters because once images appeared inline, the browser started feeling less like a document viewer and more like a delivery surface.
 -->
 
 ---
@@ -319,11 +334,9 @@ The browser starts to become not just a viewer, but a delivery surface. Pictures
 <div class="absolute bottom-4 right-6 text-xs opacity-60">Flash retired 2020; Java plug-in removed from major browsers by 2017</div>
 
 <!--
-The winning pattern was built-in capability, not perpetual plugin dependency. Every plug-in approach hit the same wall: users had to install something extra, and each plug-in was eventually abandoned. The browser won by absorbing those capabilities natively.
--->
+From there, the browser keeps absorbing capabilities. Plug-ins were a temporary shortcut, but the durable pattern was built-in features. Over time, the browser stopped being just a document reader and became a serious software platform.
 
-<!--
-The winning pattern was built-in capability, not perpetual plugin dependency. Every plug-in approach hit the same wall: users had to install something extra, browsers had to support it, and each was eventually abandoned.
+Q&A backup: If asked about plug-ins, the short answer is that extra installs created friction and security headaches, so capabilities kept moving into the browser itself.
 -->
 
 ---
@@ -362,7 +375,9 @@ The winning pattern was built-in capability, not perpetual plugin dependency. Ev
 <div class="absolute bottom-4 right-6 text-xs opacity-60">JavaScript created at Netscape in ten days in 1995; its long-term effect was to move computation from servers into URL-delivered pages</div>
 
 <!--
-Objection, and a real one: executable code arriving through what had been a passive viewer is a fundamentally different security risk. System administrators immediately pushed back. The browser had no sandbox when JavaScript shipped — the same-origin policy was added afterward as a patch under pressure. Java applets and Flash drew the same criticism louder. Every new browser capability since has had to answer the same question first: who controls what the code is allowed to do?
+JavaScript is the big shift where computation moves onto the user's machine. A URL no longer delivers only a document; it can deliver behavior. That is a packaging change, not just a programming-language milestone.
+
+Q&A backup: If asked why JavaScript belongs in a packaging talk, say it changed what a URL could deliver: not just content, but executable behavior.
 -->
 
 ---
@@ -389,7 +404,9 @@ Objection, and a real one: executable code arriving through what had been a pass
 <div class="absolute bottom-4 right-6 text-xs opacity-60">MDN: Wasm lets code from many languages run in modern browsers without a plug-in</div>
 
 <!--
-The URL and the local machine no longer have to be opposites. A link can now deliver a tool that runs entirely on the user's hardware — no server required for computation, no upload required for data.
+WebAssembly is important because it lets the browser host more serious software without asking users to install a separate client first. It also lets more existing code move to the web while keeping computation local when that matters.
+
+Q&A backup: If asked what WebAssembly does not solve, say it improves delivery and runtime portability, but not every UX, permission, or performance constraint.
 -->
 
 ---
@@ -408,6 +425,12 @@ url: https://cfe-lab.github.io/CFEIntact/app/
 <div class="mt-6 text-sm opacity-60" style="word-break: break-all;">
 <a href="https://cfe-lab.github.io/CFEIntact/app/" target="_blank" rel="noopener" style="color: rgb(8,145,178);">https://cfe-lab.github.io/CFEIntact/app/</a>
 </div>
+
+<!--
+This is the practical proof point. The user reaches the tool by URL, but the work happens locally, so sensitive files stay on their machine. That combination is exactly why this packaging option is interesting for lab software.
+
+Q&A backup: If the live app is unavailable, describe it as a browser-delivered local analysis tool and move on rather than troubleshooting live.
+-->
 
 ---
 
@@ -434,6 +457,12 @@ url: https://cfe-lab.github.io/CFEIntact/app/
 That third box matters when distribution is painful, confidentiality matters, and the tool behaves more like an instrument than a shared workflow hub.
 </div>
 
+<!--
+This is the decision slide. Installed clients maximize local control but create deployment pain. Central services simplify management but centralize the work. A browser-delivered local client sits in the middle: easy distribution, current version, local data.
+
+Q&A backup: If asked when the middle option wins, say: when updates are painful, files are sensitive, and users do not need a centrally managed shared workflow.
+-->
+
 ---
 
 # What should we package this way next?
@@ -457,6 +486,12 @@ That third box matters when distribution is painful, confidentiality matters, an
 These are good candidates when installation hurts more than the algorithm, and when server centralization buys less than local privacy and easy distribution.
 </div>
 
+<!--
+So the next question is not "Can we put everything in the browser?" It is "Which tools benefit most when installation pain is high, privacy matters, and centralization adds little value?"
+
+Q&A backup: If asked for a quick rule, choose browser-local delivery when install pain dominates and server centralization adds little practical value.
+-->
+
 ---
 
 # Closing takeaway
@@ -469,5 +504,5 @@ The browser is the latest in a long line of strange containers people have inven
 </div>
 
 <!--
-End on the decision rule first, then let the historical framing land as the close. The audience should leave with a criterion they can apply immediately.
+The closing takeaway is simple: software packaging has always been about finding a host that lets a method travel. Today, the browser is one of those hosts, and WebAssembly makes it useful for more serious tools. That's the criterion to leave with.
 -->
